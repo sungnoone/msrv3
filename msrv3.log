@@ -1,0 +1,78 @@
+>>>...MODULE:connect_srv()
+>>>...MODULE:srv_cn_get_all()2014-12-12 16:40:52.446374
+>>>...MODULE:srv_cn_get_all()2014-12-12 16:43:11.913052
+>>>...MODULE:srv_cn_get_all()2014-12-12 16:43:33.841252
+>>>...MODULE:connect_srv()2014-12-12 16:44:25.680679
+>>>...MODULE:srv_cn_get_all()2014-12-12 16:47:53.304391
+>>>...MODULE:srv_cn_get_all()2014-12-12 16:50:17.294922
+>>>...MODULE:srv_cn_get_all()2014-12-12 17:02:45.946040
+>>>...MODULE:srv_cn_get_all()2014-12-12 17:05:58.517869
+connected to host...
+connected to db...
+connected to collection...
+>>>...MODULE:srv_cn_get_all()2014-12-12 17:06:15.650534
+>>>...MODULE:srv_cn_get_all()2014-12-12 17:15:15.701548
+connected to host...
+connected to db...
+connected to collection...
+>>>...MODULE:srv_cn_get_all()2014-12-12 17:16:08.941043
+>>>...MODULE:srv_cn_get_all()2014-12-12 17:16:14.411089
+>>>...MODULE:srv_cn_get_all()2014-12-12 17:16:29.346299
+>>>...MODULE:srv_cn_get_all()2014-12-15 11:34:35.037055
+>>>...MODULE:srv_cn_get_all()2014-12-15 11:35:36.089087
+>>>...MODULE:srv_cn_insert_one()2014-12-15 15:47:52.231834
+request data content: None
+>>>...MODULE:srv_cn_insert_one()2014-12-15 15:53:12.115558
+request data content: None
+get key/value 
+>>>...MODULE:srv_cn_insert_one()2014-12-15 15:54:54.761848
+request data content: None
+>>>...MODULE:srv_cn_insert_one()2014-12-15 15:57:21.639278
+request data content: None
+parse request json data errot: 'NoneType' object has no attribute 'items'
+>>>...MODULE:srv_cn_insert_one()2014-12-15 16:05:57.454324
+request data content: None
+parse request json data errot: 'NoneType' object has no attribute 'items'
+>>>...MODULE:srv_cn_insert_one()2014-12-15 16:06:41.329562
+request data content: b'{"user":"test","password":"bla"}'
+parse request json data errot: 'bytes' object has no attribute 'items'
+>>>...MODULE:srv_cn_insert_one()2014-12-15 16:15:43.033369
+request data content: b'{"user":"test","password":"bla"}'
+parse request json data errot: 'bytes' object has no attribute 'items'
+>>>...MODULE:srv_cn_insert_one()2014-12-15 16:19:26.777710
+request data fail: the JSON object must be str, not 'bytes'
+>>>...MODULE:srv_cn_insert_one()2014-12-15 16:21:22.456808
+request data content: {"user":"test","password":"bla"}
+request data dict: {'password': 'bla', 'user': 'test'}
+parse request json data errot: 'str' object has no attribute 'items'
+>>>...MODULE:srv_cn_insert_one()2014-12-15 16:22:32.479938
+request data content: {"user":"test","password":"bla"}
+request data dict: {'user': 'test', 'password': 'bla'}
+>>>...MODULE:srv_cn_insert_one()2014-12-15 16:24:26.734004
+request data content: {"user":"test","password":"bla"}
+request data dict: {'user': 'test', 'password': 'bla'}
+before find result
+>>>...MODULE:srv_cn_insert_one()2014-12-15 16:26:16.404073
+request data content: {"user":"test","password":"bla"}
+request data dict: {'password': 'bla', 'user': 'test'}
+before find result
+insert fail: False
+>>>...MODULE:srv_cn_insert_one()2014-12-15 16:54:32.369228
+request data content: {"user":"test","password":"bla"}
+request data dict: {'password': 'bla', 'user': 'test'}
+before find result
+insert fail: False
+>>>...MODULE:srv_cn_insert_one()2014-12-15 16:56:21.070261
+request data content: {"user":"test","password":"bla"}
+request data dict: {'password': 'bla', 'user': 'test'}
+before find result
+insert OK: 548ea235caa1111b17755249
+>>>...MODULE:srv_cn_insert_one()2014-12-15 17:05:03.399133
+request data fail: 'utf-8' codec can't decode byte 0xa4 in position 41: invalid start byte
+>>>...MODULE:srv_cn_insert_one()2014-12-15 17:07:24.015305
+request data fail: 'utf-8' codec can't decode byte 0xa4 in position 41: invalid start byte
+>>>...MODULE:srv_cn_insert_one()2014-12-15 17:09:09.212341
+request data content: {"words_id":"cn0000001","words_content":"一統天下"}
+request data dict: {'words_content': '一統天下', 'words_id': 'cn0000001'}
+before find result
+insert OK: 548ea535caa1111b2b652368

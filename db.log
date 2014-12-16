@@ -1,0 +1,45 @@
+>>>...>>>...MODULE:record_query() 2014-12-15 11:35:36.089321
+DB: cn
+Collection: words
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2014-12-15 16:26:16.404372
+DB: cn
+Collection: words
+Query Content: {'words_id': ''}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-12-15 16:26:16.409377
+DB: cn
+Collection: words
+Write Content: {"user":"test","password":"bla"}
+Write content not JSON object
+>>>...>>>...MODULE:record_query() 2014-12-15 16:54:32.369547
+DB: cn
+Collection: words
+Query Content: {'words_id': ''}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-12-15 16:54:32.375189
+DB: cn
+Collection: words
+Write Content: {"user":"test","password":"bla"}
+Write content not JSON object
+>>>...>>>...MODULE:record_query() 2014-12-15 16:56:21.070670
+DB: cn
+Collection: words
+Query Content: {'words_id': ''}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-12-15 16:56:21.075904
+DB: cn
+Collection: words
+Write Content: {'password': 'bla', 'user': 'test'}
+save data OK.
+>>>...>>>...MODULE:record_query() 2014-12-15 17:09:09.212799
+DB: cn
+Collection: words
+Query Content: {'words_id': 'cn0000001'}
+query data OK.
+>>>...>>>...MODULE:record_save() 2014-12-15 17:09:09.218174
+DB: cn
+Collection: words
+Write Content: {'words_content': '一統天下', 'words_id': 'cn0000001'}
+save data OK.
