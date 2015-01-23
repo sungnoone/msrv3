@@ -1,23 +1,30 @@
 import sys, os
-from flask import Flask
+from flask import Flask, request, redirect, url_for
 from flask_cors import *
 from pymongo import *
+from werkzeug import utils
 import json
 import bson.json_util
 import datetime
-
 import conf
-
-
-app = Flask(__name__)
-cors = CORS(app)
-app.config["CORS_HEADERS"] = "Content-Type"
+import simplejson
+import csv
+import chardet
 
 
 APP_PATH = os.path.dirname(os.path.realpath(__file__))
 LOG_FILE_FULL_PATH = APP_PATH+"/msrv3.log"
 LOG_SUB_FUNCTION_PATH = APP_PATH+"/function.log"
 LOG_DB_OPERATE = APP_PATH+"/db.log"
+UPLOAD_FOLDER = APP_PATH+'/uploads'
+ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif', 'zip', 'csv'])
+ALLOWED_EXTENSIONS_CSV = set(['csv'])
+
+app = Flask(__name__)
+cors = CORS(app)
+app.config["CORS_HEADERS"] = "Content-Type"
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
 
 #=============================== test service =========================================
 
@@ -113,7 +120,118 @@ def srv_cn_insert_one():
             return "01x000"
 
 
+#=============================== upload file =========================================
+
+#file extension filter
+def allowed_file(filename):
+    return '.' in filename and \
+           filename.rsplit('.', 1)[1] in ALLOWED_EXTENSIONS
+
+
+#upload file service
+@app.route('/uploads/', methods=['GET', 'POST'])
+@cross_origin()
+def upload_file():
+    log = open(LOG_FILE_FULL_PATH, 'a+')
+    log.write(">>>...MODULE: upload_file()"+str(datetime.datetime.now())+"\r\n")
+    if request.method == 'POST':
+        log.write("POST"+"\r\n")
+        log.write(str(request.files)+"\r\n")
+        files = request.files["files[]"]
+        log.write(str(files)+"\r\n")
+        if files and allowed_file(files.filename):
+            filename = utils.secure_filename(files.filename)
+            files.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+            log.close()
+            return simplejson.dumps({"files":filename})
+            #return redirect(url_for('uploaded_file',filename=filename))
+        else:
+            log.close()
+            return "true"
+    else:
+        log.write("GET"+"\r\n")
+        log.close()
+        return "uploads service..."
+
+
+#file extension filter -- allow csv for import
+def allowed_csv_file(filename):
+    return '.' in filename and \
+           filename.rsplit('.', 1)[1] in ALLOWED_EXTENSIONS_CSV
+
+
+#upload csv file service
+@app.route('/uploads/csv/', methods=['GET', 'POST'])
+@cross_origin()
+def upload_csv_file():
+    log = open(LOG_FILE_FULL_PATH, 'a+')
+    log.write(">>>...MODULE: upload_csv_file()"+str(datetime.datetime.now())+"\r\n")
+    if request.method == 'POST':
+        log.write("POST"+"\r\n")
+        log.write(str(request.files)+"\r\n")
+        files = request.files["files[]"]
+        log.write(str(files)+"\r\n")
+
+        if files and allowed_csv_file(files.filename):
+            filename = utils.secure_filename(files.filename)
+            files.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+            log.close()
+            parse_csv(filename)
+            return simplejson.dumps({"files":filename})
+            #return redirect(url_for('uploaded_file',filename=filename))
+        else:
+            log.close()
+            return simplejson.dumps({"error":"file extension not allowed!"})
+    else:
+        log.write("GET"+"\r\n")
+        log.close()
+        return "uploads csv service..."
+
+
 #=============================== common function =========================================
+
+
+#parse csv
+def parse_csv(filename):
+    log = open(LOG_SUB_FUNCTION_PATH, 'a+')
+    log.write(">>>...MODULE:srv_cn_get_all()"+str(datetime.datetime.now())+"\r\n")
+    log.write(filename+"\r\n")
+    # try:
+    #     rowdata = open(UPLOAD_FOLDER+"/"+filename, "r").read()
+    #     file_code_type = chardet.detect(rowdata)
+    #     log.write("file code type:"+str(file_code_type["encoding"])+"\r\n")
+    # except Exception as e:
+    #     log.write(str(e)+"\r\n")
+    #     log.close()
+    #     return ""
+
+    try:
+        #csvfile = csv.reader(open(UPLOAD_FOLDER+"/"+filename,"rt", newline="", encoding="utf-8"), dialect="excel")
+        with open(UPLOAD_FOLDER+"/"+filename, 'rt') as csvfile:
+            has_header = csv.Sniffer().has_header(csvfile.read(1024))
+            csvfile.seek(0)
+            csv_reader = csv.reader(csvfile)
+            log.write(str(csv_reader)+"\r\n")
+            for row in csv_reader:
+
+                print(row)
+                log.write(str(row[8])+"\r\n")
+                #log.write("line\r\n")
+                #log.write(str(line).encode(encoding="utf-8")+"\r\n")
+        log.close()
+    except Exception as e:
+        log.write(str(e)+"\r\n")
+        log.close()
+
+    return ""
+
+    #f = open(APP_PATH+"/sample1.csv","r+")
+        #reader = csv.reader(f)
+        # for row in reader:
+        #     print(str(row))
+        #     log.write(row+"\r\n")
+    #f.close()
+
 
 
 #query record
