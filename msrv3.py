@@ -1,5 +1,5 @@
 import sys, os
-from flask import Flask, request, redirect, url_for
+from flask import Flask, request, redirect, url_for, jsonify
 from flask_cors import *
 from pymongo import *
 from werkzeug import utils
@@ -45,20 +45,65 @@ def connect_srv():
 
 #=============================== cn words api =========================================
 
-# get all data
-@app.route('/srv/cn/get/all/', methods=["GET"])
+# get all data (response to jqgrid)
+@app.route('/srv/cn/get/all/', methods=["GET","POST"])
 @cross_origin()
 def srv_cn_get_all():
     log = open(LOG_FILE_FULL_PATH, 'a+')
     log.write(">>>...MODULE:srv_cn_get_all()"+str(datetime.datetime.now())+"\r\n")
+    return_json = {"rows":[]}
+    return_json["rows"].clear()
     try:
-        #Query all data
-        find_result = record_query(conf.DB_CN, conf.COLLECTION_CN_WORDS, {})
-        s = ""
+        log.write("query start..."+str(datetime.datetime.now())+"\r\n")
+        find_result = record_query(conf.DB_CN, conf.COLLECTION_CN_WORDS_CLASS1, {})
+        log.write("query end..."+str(datetime.datetime.now())+"\r\n")
+        #s = ""
+        log.write("json append start..."+str(datetime.datetime.now())+"\r\n")
         for post in find_result:
-            s += str(post) + "</br>"
+            return_json["rows"].append(post)
+        log.write("json append end..."+str(datetime.datetime.now())+"\r\n")
+        try:
+            return_result = bson.json_util.dumps(return_json, ensure_ascii="false")
+            log.write("return start..."+str(datetime.datetime.now())+"\r\n")
+            log.close()
+            return return_result
+        except Exception as e:
+            log.write("jsonify error: "+str(e)+"\r\n")
+            log.close()
+            return jsonify({"rows":[]})
+    except Exception as e:
+        log.write("Query db error! " + str(e) + "\r\n")
         log.close()
-        return str(s)
+        return str("01x001")
+
+
+# get all data (response to ajax)
+@app.route('/srv/cn/get/type1/', methods=["GET","POST"])
+@cross_origin()
+def srv_cn_get_type1():
+    log = open(LOG_FILE_FULL_PATH, 'a+')
+    log.write(">>>...MODULE:srv_cn_get_type1()"+str(datetime.datetime.now())+"\r\n")
+    #return_json = {"items":[]}
+    return_json = {"items":[]}
+    return_json["items"].clear()
+    try:
+        log.write("query start..."+str(datetime.datetime.now())+"\r\n")
+        find_result = record_query(conf.DB_CN, conf.COLLECTION_CN_WORDS_CLASS1, {})
+        log.write("query end..."+str(datetime.datetime.now())+"\r\n")
+        #s = ""
+        log.write("json append start..."+str(datetime.datetime.now())+"\r\n")
+        for post in find_result:
+            return_json["items"].append(post)
+        log.write("json append end..."+str(datetime.datetime.now())+"\r\n")
+        try:
+            return_result = bson.json_util.dumps(return_json, ensure_ascii="false")
+            log.write("return start..."+str(datetime.datetime.now())+"\r\n")
+            log.close()
+            return return_result
+        except Exception as e:
+            log.write("jsonify error: "+str(e)+"\r\n")
+            log.close()
+            return jsonify({"rows":[]})
     except Exception as e:
         log.write("Query db error! " + str(e) + "\r\n")
         log.close()
@@ -120,7 +165,7 @@ def srv_cn_insert_one():
             return "01x000"
 
 
-#=============================== upload file =========================================
+#=============================== cn upload file =========================================
 
 #file extension filter
 def allowed_file(filename):
@@ -177,61 +222,44 @@ def upload_csv_file():
             files.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             log.close()
             parse_csv(filename)
-            return simplejson.dumps({"files":filename})
-            #return redirect(url_for('uploaded_file',filename=filename))
+
+            return simplejson.dumps({"files":[
+                {"name":filename,"error":"00x000"}
+            ]})
         else:
             log.close()
-            return simplejson.dumps({"error":"file extension not allowed!"})
+            return simplejson.dumps({"files":[
+                {"name":"error","error":"00x001"}
+            ]})
+            #return simplejson.dumps({"status":"00x001"})
     else:
         log.write("GET"+"\r\n")
         log.close()
         return "uploads csv service..."
 
 
-#=============================== common function =========================================
-
-
 #parse csv
 def parse_csv(filename):
     log = open(LOG_SUB_FUNCTION_PATH, 'a+')
-    log.write(">>>...MODULE:srv_cn_get_all()"+str(datetime.datetime.now())+"\r\n")
+    log.write(">>>...MODULE:parse_csv()"+str(datetime.datetime.now())+"\r\n")
     log.write(filename+"\r\n")
-    # try:
-    #     rowdata = open(UPLOAD_FOLDER+"/"+filename, "r").read()
-    #     file_code_type = chardet.detect(rowdata)
-    #     log.write("file code type:"+str(file_code_type["encoding"])+"\r\n")
-    # except Exception as e:
-    #     log.write(str(e)+"\r\n")
-    #     log.close()
-    #     return ""
-
     try:
         #csvfile = csv.reader(open(UPLOAD_FOLDER+"/"+filename,"rt", newline="", encoding="utf-8"), dialect="excel")
-        with open(UPLOAD_FOLDER+"/"+filename, 'rt') as csvfile:
-            has_header = csv.Sniffer().has_header(csvfile.read(1024))
-            csvfile.seek(0)
-            csv_reader = csv.reader(csvfile)
-            log.write(str(csv_reader)+"\r\n")
+        with open(UPLOAD_FOLDER+"/"+filename, 'rt', encoding="utf-8-sig") as csvfile:
+            csv_reader = csv.DictReader(csvfile,dialect="excel")
+            #jsonfile = open(UPLOAD_FOLDER+"/dumps.json", "w")
+            ##every row
             for row in csv_reader:
-
-                print(row)
-                log.write(str(row[8])+"\r\n")
-                #log.write("line\r\n")
-                #log.write(str(line).encode(encoding="utf-8")+"\r\n")
+                json_dump = json.dumps(row, ensure_ascii=False)
+                save_result = record_save(conf.DB_CN, conf.COLLECTION_CN_WORDS_CLASS1, eval(json_dump))
+                #log.write(row["編號"]+" save into db "+str(save_result)+"\r\n")
         log.close()
     except Exception as e:
         log.write(str(e)+"\r\n")
         log.close()
 
-    return ""
 
-    #f = open(APP_PATH+"/sample1.csv","r+")
-        #reader = csv.reader(f)
-        # for row in reader:
-        #     print(str(row))
-        #     log.write(row+"\r\n")
-    #f.close()
-
+#=============================== common function =========================================
 
 
 #query record

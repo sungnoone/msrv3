@@ -25,6 +25,9 @@ DB_PORT = 27017
 # DB -- cn thesaurus
 DB_CN = "cn"
 COLLECTION_CN_WORDS = "words"
+COLLECTION_CN_WORDS_CLASS1 = "words_class1"
+
 #fields name map
 CN_WORDS_ID = "words_id"
 CN_WORDS_CONTENT = "words_content"
+
