@@ -1,269 +1,295 @@
->>>...MODULE:srv_cn_get_type1()2015-01-29 13:50:07.937952
-query start...2015-01-29 13:50:07.937992
-query end...2015-01-29 13:50:07.959329
-json append start...2015-01-29 13:50:07.959373
-json append end...2015-01-29 13:50:08.228031
-return start...2015-01-29 13:50:10.426265
->>>...MODULE:srv_cn_get_type1()2015-01-29 13:54:21.870891
-query start...2015-01-29 13:54:21.870922
-query end...2015-01-29 13:54:21.874442
-json append start...2015-01-29 13:54:21.874468
-json append end...2015-01-29 13:54:22.204678
-return start...2015-01-29 13:54:26.602907
->>>...MODULE: upload_csv_file()2015-01-30 08:44:33.029115
-POST
-ImmutableMultiDict([('files[]', <FileStorage: 'sample1-1.csv' ('text/csv')>)])
-<FileStorage: 'sample1-1.csv' ('text/csv')>
->>>...MODULE: upload_csv_file()2015-01-30 08:49:23.501436
-POST
-ImmutableMultiDict([('files[]', <FileStorage: 'sample1-2.csv' ('text/csv')>)])
-<FileStorage: 'sample1-2.csv' ('text/csv')>
->>>...MODULE: upload_csv_file()2015-01-30 08:58:45.728156
-POST
-ImmutableMultiDict([('files[]', <FileStorage: 'sample1-2.csv' ('text/csv')>)])
-<FileStorage: 'sample1-2.csv' ('text/csv')>
->>>...MODULE: upload_csv_file()2015-01-30 10:07:45.428056
-POST
-ImmutableMultiDict([('files[]', <FileStorage: 'sample1-2.csv' ('text/csv')>)])
-<FileStorage: 'sample1-2.csv' ('text/csv')>
->>>...MODULE: upload_csv_file()2015-01-30 10:09:02.049563
-POST
-ImmutableMultiDict([('files[]', <FileStorage: 'sample1-2.csv' ('text/csv')>)])
-<FileStorage: 'sample1-2.csv' ('text/csv')>
->>>...MODULE: upload_csv_file()2015-01-30 10:09:05.217815
-POST
-ImmutableMultiDict([('files[]', <FileStorage: 'sample1-2.csv' ('text/csv')>)])
-<FileStorage: 'sample1-2.csv' ('text/csv')>
->>>...MODULE:srv_cn_get_all()2015-01-30 10:38:26.462104
-query start...2015-01-30 10:38:26.462132
-query end...2015-01-30 10:38:26.501575
-json append start...2015-01-30 10:38:26.501615
-json append end...2015-01-30 10:38:26.649829
-return start...2015-01-30 10:38:27.525301
->>>...MODULE:srv_cn_get_all()2015-01-30 10:39:06.465494
-query start...2015-01-30 10:39:06.465521
-query end...2015-01-30 10:39:06.507273
-json append start...2015-01-30 10:39:06.507313
-json append end...2015-01-30 10:39:06.594338
-return start...2015-01-30 10:39:07.806165
->>>...MODULE:srv_cn_get_all()2015-01-30 10:51:56.917717
-query start...2015-01-30 10:51:56.917853
-query end...2015-01-30 10:51:57.007803
-json append start...2015-01-30 10:51:57.007845
-json append end...2015-01-30 10:51:57.222955
-return start...2015-01-30 10:51:59.577084
->>>...MODULE:srv_cn_get_all()2015-01-30 10:53:56.901617
-query start...2015-01-30 10:53:56.901659
-query end...2015-01-30 10:53:56.916921
-json append start...2015-01-30 10:53:56.916943
-json append end...2015-01-30 10:53:57.005393
-return start...2015-01-30 10:53:57.598371
->>>...MODULE:srv_cn_get_all()2015-01-30 10:56:47.757738
-query start...2015-01-30 10:56:47.757764
-query end...2015-01-30 10:56:47.761391
-json append start...2015-01-30 10:56:47.761411
-json append end...2015-01-30 10:56:47.843989
-return start...2015-01-30 10:56:49.070015
->>>...MODULE:srv_cn_get_all()2015-01-30 10:58:07.768081
-query start...2015-01-30 10:58:07.768119
-query end...2015-01-30 10:58:07.771586
-json append start...2015-01-30 10:58:07.771624
-json append end...2015-01-30 10:58:07.868738
-return start...2015-01-30 10:58:07.875296
->>>...MODULE:srv_cn_get_all()2015-01-30 10:59:18.082783
-query start...2015-01-30 10:59:18.082829
-query end...2015-01-30 10:59:18.103418
-json append start...2015-01-30 10:59:18.103457
-Query db error! 'rows'
->>>...MODULE:srv_cn_get_all()2015-01-30 11:02:09.433846
-query start...2015-01-30 11:02:09.433885
-query end...2015-01-30 11:02:09.436779
-json append start...2015-01-30 11:02:09.436799
-json append end...2015-01-30 11:02:09.521282
-return start...2015-01-30 11:02:10.167564
->>>...MODULE:srv_cn_get_all()2015-01-30 11:04:10.368843
-query start...2015-01-30 11:04:10.376297
-query end...2015-01-30 11:04:10.394371
-json append start...2015-01-30 11:04:10.394414
-json append end...2015-01-30 11:04:10.470624
-return start...2015-01-30 11:04:11.060163
->>>...MODULE:srv_cn_get_all()2015-01-30 11:04:30.370749
-query start...2015-01-30 11:04:30.376187
-query end...2015-01-30 11:04:30.378602
-json append start...2015-01-30 11:04:30.378621
-json append end...2015-01-30 11:04:30.450634
-return start...2015-01-30 11:04:31.069510
->>>...MODULE:srv_cn_get_all()2015-01-30 11:05:10.374587
-query start...2015-01-30 11:05:10.380696
-query end...2015-01-30 11:05:10.383534
-json append start...2015-01-30 11:05:10.383553
-json append end...2015-01-30 11:05:10.458903
-return start...2015-01-30 11:05:11.056099
->>>...MODULE:srv_cn_get_all()2015-01-30 11:05:30.377360
-query start...2015-01-30 11:05:30.382917
-query end...2015-01-30 11:05:30.385338
-json append start...2015-01-30 11:05:30.385360
-json append end...2015-01-30 11:05:30.452086
-return start...2015-01-30 11:05:31.050524
->>>...MODULE: upload_csv_file()2015-01-30 11:06:09.362993
-POST
-ImmutableMultiDict([('files[]', <FileStorage: 'sample1-2.csv' ('text/csv')>)])
-<FileStorage: 'sample1-2.csv' ('text/csv')>
->>>...MODULE:srv_cn_get_all()2015-01-30 11:06:30.384599
-query start...2015-01-30 11:06:30.389171
-query end...2015-01-30 11:06:30.391590
-json append start...2015-01-30 11:06:30.391612
-json append end...2015-01-30 11:06:30.487974
-return start...2015-01-30 11:06:31.233845
->>>...MODULE:srv_cn_get_all()2015-01-30 11:09:01.523824
-query start...2015-01-30 11:09:01.530414
-query end...2015-01-30 11:09:01.564394
-json append start...2015-01-30 11:09:01.564437
-json append end...2015-01-30 11:09:01.566803
-return start...2015-01-30 11:09:01.566920
->>>...MODULE:srv_cn_get_all()2015-01-30 11:09:21.527324
-query start...2015-01-30 11:09:21.527367
-query end...2015-01-30 11:09:21.529904
-json append start...2015-01-30 11:09:21.529922
-json append end...2015-01-30 11:09:21.531992
-return start...2015-01-30 11:09:21.532136
->>>...MODULE: upload_csv_file()2015-01-30 11:10:01.894170
-POST
-ImmutableMultiDict([('files[]', <FileStorage: 'sample1-2.csv' ('text/csv')>)])
-<FileStorage: 'sample1-2.csv' ('text/csv')>
->>>...MODULE:srv_cn_get_all()2015-01-30 11:10:31.535472
-query start...2015-01-30 11:10:31.535500
-query end...2015-01-30 11:10:31.538317
-json append start...2015-01-30 11:10:31.538339
-json append end...2015-01-30 11:10:31.559235
-return start...2015-01-30 11:10:31.710888
->>>...MODULE:srv_cn_get_all()2015-01-30 11:11:01.538994
-query start...2015-01-30 11:11:01.540851
-query end...2015-01-30 11:11:01.543375
-json append start...2015-01-30 11:11:01.543396
-json append end...2015-01-30 11:11:01.562428
-return start...2015-01-30 11:11:01.712132
->>>...MODULE:srv_cn_get_all()2015-01-30 13:46:26.756441
-query start...2015-01-30 13:46:26.759734
-query end...2015-01-30 13:46:26.821417
-json append start...2015-01-30 13:46:26.821455
-json append end...2015-01-30 13:46:26.846899
-return start...2015-01-30 13:46:26.997941
->>>...MODULE:srv_cn_get_all()2015-01-30 13:49:17.751016
-query start...2015-01-30 13:49:17.752995
-query end...2015-01-30 13:49:17.775041
-json append start...2015-01-30 13:49:17.775070
-json append end...2015-01-30 13:49:17.798325
-return start...2015-01-30 13:49:17.947046
->>>...MODULE:srv_cn_get_all()2015-01-30 13:49:17.959347
-query start...2015-01-30 13:49:17.960606
-query end...2015-01-30 13:49:17.964434
-json append start...2015-01-30 13:49:17.964462
-json append end...2015-01-30 13:49:18.003282
-return start...2015-01-30 13:49:18.158796
->>>...MODULE:srv_cn_get_all()2015-01-30 13:51:19.184488
-query start...2015-01-30 13:51:19.185452
-query end...2015-01-30 13:51:19.235223
-json append start...2015-01-30 13:51:19.235269
-json append end...2015-01-30 13:51:19.259710
-return start...2015-01-30 13:51:19.433605
->>>...MODULE:srv_cn_get_all()2015-01-30 13:51:58.345017
-query start...2015-01-30 13:51:58.345908
-query end...2015-01-30 13:51:58.363306
-json append start...2015-01-30 13:51:58.363346
-json append end...2015-01-30 13:51:58.385292
-return start...2015-01-30 13:51:58.534812
->>>...MODULE:srv_cn_get_all()2015-01-30 14:06:24.544347
-query start...2015-01-30 14:06:24.544393
-query end...2015-01-30 14:06:24.566923
-json append start...2015-01-30 14:06:24.566967
-json append end...2015-01-30 14:06:24.591724
-return start...2015-01-30 14:06:24.835618
->>>...MODULE:srv_cn_get_all()2015-01-30 14:15:18.636920
-query start...2015-01-30 14:15:18.638589
-query end...2015-01-30 14:15:18.641762
-json append start...2015-01-30 14:15:18.641799
-json append end...2015-01-30 14:15:18.662837
-return start...2015-01-30 14:15:19.041762
->>>...MODULE:srv_cn_get_all()2015-01-30 14:21:40.391861
-query start...2015-01-30 14:21:40.392850
-query end...2015-01-30 14:21:40.397233
-json append start...2015-01-30 14:21:40.397261
-json append end...2015-01-30 14:21:40.418540
-return start...2015-01-30 14:21:40.711191
->>>...MODULE:srv_cn_get_all()2015-01-30 14:21:55.346278
-query start...2015-01-30 14:21:55.348053
-query end...2015-01-30 14:21:55.365383
-json append start...2015-01-30 14:21:55.365455
-json append end...2015-01-30 14:21:55.391402
-return start...2015-01-30 14:21:55.621183
->>>...MODULE:srv_cn_get_all()2015-01-30 14:22:15.374896
-query start...2015-01-30 14:22:15.375754
-query end...2015-01-30 14:22:15.378322
-json append start...2015-01-30 14:22:15.378344
-json append end...2015-01-30 14:22:15.399468
-return start...2015-01-30 14:22:15.596044
->>>...MODULE:srv_cn_get_all()2015-01-30 14:45:41.561682
-query start...2015-01-30 14:45:41.563000
-query end...2015-01-30 14:45:41.567094
-json append start...2015-01-30 14:45:41.567122
-json append end...2015-01-30 14:45:41.587656
-return start...2015-01-30 14:45:41.806876
->>>...MODULE:srv_cn_get_all()2015-01-30 14:53:38.361175
-query start...2015-01-30 14:53:38.362053
-query end...2015-01-30 14:53:38.364843
-json append start...2015-01-30 14:53:38.364865
-json append end...2015-01-30 14:53:38.385355
-return start...2015-01-30 14:53:38.608240
->>>...MODULE:srv_cn_get_all()2015-01-30 15:41:21.585193
-query start...2015-01-30 15:41:21.585236
-query end...2015-01-30 15:41:21.589161
-json append start...2015-01-30 15:41:21.589183
-json append end...2015-01-30 15:41:21.611221
-return start...2015-01-30 15:41:21.936662
->>>...MODULE:srv_cn_get_all()2015-01-30 15:42:30.849301
-query start...2015-01-30 15:42:30.850531
-query end...2015-01-30 15:42:30.866976
-json append start...2015-01-30 15:42:30.867017
-json append end...2015-01-30 15:42:30.892512
-return start...2015-01-30 15:42:31.083105
->>>...MODULE:srv_cn_get_type1()2015-01-30 15:49:32.251481
-query start...2015-01-30 15:49:32.251522
-query end...2015-01-30 15:49:32.269479
-json append start...2015-01-30 15:49:32.269520
-Query db error! 'module' object has no attribute 'return_json'
->>>...MODULE:srv_cn_get_type1()2015-01-30 15:51:15.920970
-query start...2015-01-30 15:51:15.921012
-query end...2015-01-30 15:51:15.924307
-json append start...2015-01-30 15:51:15.924335
-Query db error! 'module' object has no attribute 'return_json'
->>>...MODULE:srv_cn_get_type1()2015-01-30 15:53:43.624385
-query start...2015-01-30 15:53:43.624428
-query end...2015-01-30 15:53:43.663090
-json append start...2015-01-30 15:53:43.663135
-json append end...2015-01-30 15:53:43.685346
-return start...2015-01-30 15:53:43.833480
->>>...MODULE:srv_cn_get_type1()2015-01-30 15:54:43.631607
-query start...2015-01-30 15:54:43.631635
-query end...2015-01-30 15:54:43.647615
-json append start...2015-01-30 15:54:43.647653
-json append end...2015-01-30 15:54:43.669519
-return start...2015-01-30 15:54:43.818779
->>>...MODULE:srv_cn_get_type1()2015-01-30 16:54:09.698291
-query start...2015-01-30 16:54:09.698326
-query end...2015-01-30 16:54:09.729319
-json append start...2015-01-30 16:54:09.729349
-json append end...2015-01-30 16:54:09.752694
-return start...2015-01-30 16:54:09.898919
->>>...MODULE:srv_cn_get_type1()2015-01-30 16:56:50.429939
-query start...2015-01-30 16:56:50.429979
-query end...2015-01-30 16:56:50.432756
-json append start...2015-01-30 16:56:50.432775
-json append end...2015-01-30 16:56:50.453374
-return start...2015-01-30 16:56:50.599409
->>>...MODULE:srv_cn_get_type1()2015-01-30 17:14:00.224967
-query start...2015-01-30 17:14:00.224999
-query end...2015-01-30 17:14:00.232881
-json append start...2015-01-30 17:14:00.232901
-json append end...2015-01-30 17:14:00.252382
-return start...2015-01-30 17:14:00.413168
+>>>...MODULE:srv_cn_options_year()2015-02-04 11:43:03.301068
+>>>...MODULE:srv_cn_options_year()2015-02-04 11:44:32.051478
+>>>...MODULE:srv_cn_options_year()2015-02-04 11:44:53.385794
+>>>...MODULE:srv_cn_options_year()2015-02-04 11:45:23.425372
+>>>...MODULE:srv_cn_options_year()2015-02-04 11:46:58.128299
+>>>...MODULE:srv_cn_options_year()2015-02-04 11:47:31.201876
+>>>...MODULE:srv_cn_options_year()2015-02-04 11:49:10.045310
+>>>...MODULE:srv_cn_options_year()2015-02-04 11:49:38.107726
+>>>...MODULE:srv_cn_options_year()2015-02-04 11:49:46.663687
+>>>...MODULE:srv_cn_get_all()2015-02-04 13:41:39.082779
+query start...2015-02-04 13:41:39.082895
+query end...2015-02-04 13:41:39.094091
+json append start...2015-02-04 13:41:39.094127
+json append end...2015-02-04 13:41:39.115839
+return start...2015-02-04 13:41:39.260383
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:08:26.686747
+query start...2015-02-04 14:08:26.686824
+query end...2015-02-04 14:08:26.719299
+json append start...2015-02-04 14:08:26.719330
+json append end...2015-02-04 14:08:26.762693
+return start...2015-02-04 14:08:26.901137
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:08:29.283494
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:13:33.407488
+query start...2015-02-04 14:13:33.407516
+query end...2015-02-04 14:13:33.432204
+json append start...2015-02-04 14:13:33.432232
+json append end...2015-02-04 14:13:33.455497
+return start...2015-02-04 14:13:33.601077
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:13:35.480147
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:15:04.366033
+query start...2015-02-04 14:15:04.366068
+query end...2015-02-04 14:15:04.368675
+json append start...2015-02-04 14:15:04.368694
+json append end...2015-02-04 14:15:04.386981
+return start...2015-02-04 14:15:04.530952
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:15:16.814946
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:15:44.369015
+query start...2015-02-04 14:15:44.369044
+query end...2015-02-04 14:15:44.389464
+json append start...2015-02-04 14:15:44.389512
+json append end...2015-02-04 14:15:44.411948
+return start...2015-02-04 14:15:44.550007
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:15:51.068126
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:16:24.375078
+query start...2015-02-04 14:16:24.375125
+query end...2015-02-04 14:16:24.397431
+json append start...2015-02-04 14:16:24.397454
+json append end...2015-02-04 14:16:24.419063
+return start...2015-02-04 14:16:24.557406
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:16:26.719038
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:17:04.378590
+query start...2015-02-04 14:17:04.378618
+query end...2015-02-04 14:17:04.381282
+json append start...2015-02-04 14:17:04.381301
+json append end...2015-02-04 14:17:04.400649
+return start...2015-02-04 14:17:04.539017
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:17:07.022888
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:21:46.361173
+query start...2015-02-04 14:21:46.361201
+query end...2015-02-04 14:21:46.383250
+json append start...2015-02-04 14:21:46.383297
+json append end...2015-02-04 14:21:46.404061
+return start...2015-02-04 14:21:46.547070
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:31:07.393246
+query start...2015-02-04 14:31:07.393284
+query end...2015-02-04 14:31:07.420098
+json append start...2015-02-04 14:31:07.420145
+json append end...2015-02-04 14:31:07.448957
+return start...2015-02-04 14:31:07.598713
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:31:14.521247
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:34:59.014909
+query start...2015-02-04 14:34:59.014937
+query end...2015-02-04 14:34:59.036445
+json append start...2015-02-04 14:34:59.036467
+json append end...2015-02-04 14:34:59.057133
+return start...2015-02-04 14:34:59.199302
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:35:01.392968
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:35:59.022173
+query start...2015-02-04 14:35:59.022226
+query end...2015-02-04 14:35:59.024820
+json append start...2015-02-04 14:35:59.024839
+json append end...2015-02-04 14:35:59.045218
+return start...2015-02-04 14:35:59.182846
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:36:04.403790
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:38:29.819281
+query start...2015-02-04 14:38:29.819310
+query end...2015-02-04 14:38:29.843341
+json append start...2015-02-04 14:38:29.843365
+json append end...2015-02-04 14:38:29.866549
+return start...2015-02-04 14:38:30.003783
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:38:33.243557
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:39:39.827889
+query start...2015-02-04 14:39:39.827918
+query end...2015-02-04 14:39:39.831201
+json append start...2015-02-04 14:39:39.831220
+json append end...2015-02-04 14:39:39.850592
+return start...2015-02-04 14:39:39.990033
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:39:42.686476
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:40:19.832530
+query start...2015-02-04 14:40:19.832577
+query end...2015-02-04 14:40:19.835305
+json append start...2015-02-04 14:40:19.835326
+json append end...2015-02-04 14:40:19.855629
+return start...2015-02-04 14:40:19.990847
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:40:41.669073
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:41:50.038273
+query start...2015-02-04 14:41:50.038302
+query end...2015-02-04 14:41:50.064074
+json append start...2015-02-04 14:41:50.064107
+json append end...2015-02-04 14:41:50.087244
+return start...2015-02-04 14:41:50.223946
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:41:52.570677
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:43:00.045699
+query start...2015-02-04 14:43:00.045743
+query end...2015-02-04 14:43:00.070026
+json append start...2015-02-04 14:43:00.070054
+json append end...2015-02-04 14:43:00.092279
+return start...2015-02-04 14:43:00.228481
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:43:03.288056
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:44:40.053774
+query start...2015-02-04 14:44:40.053801
+query end...2015-02-04 14:44:40.073820
+json append start...2015-02-04 14:44:40.073846
+json append end...2015-02-04 14:44:40.098615
+return start...2015-02-04 14:44:40.239639
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:44:50.865730
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:45:34.627594
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:45:37.597747
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:47:50.625495
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:48:10.074538
+query start...2015-02-04 14:48:10.074566
+query end...2015-02-04 14:48:10.076819
+json append start...2015-02-04 14:48:10.076837
+json append end...2015-02-04 14:48:10.097458
+return start...2015-02-04 14:48:10.235478
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:48:12.784392
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:50:00.088290
+query start...2015-02-04 14:50:00.088324
+query end...2015-02-04 14:50:00.090873
+json append start...2015-02-04 14:50:00.090893
+json append end...2015-02-04 14:50:00.110546
+return start...2015-02-04 14:50:00.249728
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:50:02.130219
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:50:04.819293
+>>>...MODULE:srv_cn_get_all()2015-02-04 14:50:50.094279
+query start...2015-02-04 14:50:50.094359
+query end...2015-02-04 14:50:50.096821
+json append start...2015-02-04 14:50:50.096840
+json append end...2015-02-04 14:50:50.115759
+return start...2015-02-04 14:50:50.253641
+>>>...MODULE:srv_cn_options_year()2015-02-04 14:50:52.473096
+>>>...MODULE:srv_cn_get_all()2015-02-04 15:04:13.327047
+query start...2015-02-04 15:04:13.327075
+query end...2015-02-04 15:04:13.354891
+json append start...2015-02-04 15:04:13.354921
+json append end...2015-02-04 15:04:13.380388
+return start...2015-02-04 15:04:13.516890
+>>>...MODULE:srv_cn_options_year()2015-02-04 15:04:15.472128
+>>>...MODULE:srv_cn_get_all()2015-02-04 15:05:13.333358
+query start...2015-02-04 15:05:13.333418
+query end...2015-02-04 15:05:13.336430
+json append start...2015-02-04 15:05:13.336450
+json append end...2015-02-04 15:05:13.355595
+return start...2015-02-04 15:05:13.568641
+>>>...MODULE:srv_cn_options_year()2015-02-04 15:05:15.776889
+>>>...MODULE:srv_cn_options_year()2015-02-04 15:05:25.682756
+>>>...MODULE:srv_cn_get_all()2015-02-04 15:06:43.341894
+query start...2015-02-04 15:06:43.341924
+query end...2015-02-04 15:06:43.386480
+json append start...2015-02-04 15:06:43.386514
+json append end...2015-02-04 15:06:43.410386
+return start...2015-02-04 15:06:43.550417
+>>>...MODULE:srv_cn_options_year()2015-02-04 15:06:46.435069
+>>>...MODULE:srv_cn_get_all()2015-02-04 15:08:13.351467
+query start...2015-02-04 15:08:13.351493
+query end...2015-02-04 15:08:13.368790
+json append start...2015-02-04 15:08:13.368816
+json append end...2015-02-04 15:08:13.389314
+return start...2015-02-04 15:08:13.527636
+>>>...MODULE:srv_cn_options_year()2015-02-04 15:08:15.299708
+>>>...MODULE:srv_cn_get_all()2015-02-04 15:10:53.514684
+query start...2015-02-04 15:10:53.514774
+query end...2015-02-04 15:10:53.518153
+json append start...2015-02-04 15:10:53.518179
+json append end...2015-02-04 15:10:53.551039
+return start...2015-02-04 15:10:53.752065
+>>>...MODULE:srv_cn_options_year()2015-02-04 15:10:55.727415
+>>>...MODULE:srv_cn_options_year()2015-02-04 15:12:20.102387
+>>>...MODULE:srv_cn_get_all()2015-02-04 15:14:14.551285
+query start...2015-02-04 15:14:14.551316
+query end...2015-02-04 15:14:14.609098
+json append start...2015-02-04 15:14:14.609133
+json append end...2015-02-04 15:14:14.632592
+return start...2015-02-04 15:14:14.793762
+>>>...MODULE:srv_cn_options_year()2015-02-04 15:14:20.193058
+>>>...MODULE:srv_cn_options_year()2015-02-04 15:14:26.868550
+>>>...MODULE:srv_cn_options_year()2015-02-04 15:14:33.474449
+>>>...MODULE:srv_cn_options_year()2015-02-04 15:14:40.575865
+>>>...MODULE:srv_cn_options_year()2015-02-04 15:33:16.840390
+>>>...MODULE:srv_cn_options_year()2015-02-04 15:33:23.822694
+>>>...MODULE:srv_cn_options_year()2015-02-04 15:33:28.220805
+>>>...MODULE:srv_cn_get_all()2015-02-04 16:28:22.211617
+query start...2015-02-04 16:28:22.211686
+query end...2015-02-04 16:28:22.239383
+json append start...2015-02-04 16:28:22.239417
+json append end...2015-02-04 16:28:22.263305
+return start...2015-02-04 16:28:22.410502
+>>>...MODULE:srv_cn_get_all()2015-02-04 16:29:59.452473
+query start...2015-02-04 16:29:59.452502
+query end...2015-02-04 16:29:59.476781
+json append start...2015-02-04 16:29:59.476830
+json append end...2015-02-04 16:29:59.501247
+return start...2015-02-04 16:29:59.681555
+>>>...MODULE:srv_cn_options_year()2015-02-04 16:30:01.775171
+>>>...MODULE:srv_cn_get_all()2015-02-04 16:34:51.809951
+query start...2015-02-04 16:34:51.809981
+query end...2015-02-04 16:34:51.835012
+json append start...2015-02-04 16:34:51.835164
+json append end...2015-02-04 16:34:51.863184
+return start...2015-02-04 16:34:52.010172
+>>>...MODULE:srv_cn_options_year()2015-02-04 16:34:54.411764
+>>>...MODULE:srv_cn_get_all()2015-02-04 16:35:01.399319
+query start...2015-02-04 16:35:01.399347
+query end...2015-02-04 16:35:01.401525
+json append start...2015-02-04 16:35:01.401560
+json append end...2015-02-04 16:35:01.491865
+return start...2015-02-04 16:35:01.652410
+>>>...MODULE:srv_cn_options_year()2015-02-04 16:35:04.133455
+>>>...MODULE:srv_cn_get_all()2015-02-04 16:36:20.949336
+query start...2015-02-04 16:36:20.949364
+query end...2015-02-04 16:36:20.952368
+json append start...2015-02-04 16:36:20.952388
+json append end...2015-02-04 16:36:20.972527
+return start...2015-02-04 16:36:21.124645
+>>>...MODULE:srv_cn_options_year()2015-02-04 16:36:23.809964
+>>>...MODULE:srv_cn_get_all()2015-02-04 16:41:46.765742
+query start...2015-02-04 16:41:46.765779
+query end...2015-02-04 16:41:46.802922
+json append start...2015-02-04 16:41:46.802972
+json append end...2015-02-04 16:41:46.825571
+return start...2015-02-04 16:41:46.999479
+>>>...MODULE:srv_cn_options_year()2015-02-04 16:41:50.346561
+>>>...MODULE:srv_cn_get_all()2015-02-04 16:42:16.224435
+query start...2015-02-04 16:42:16.224462
+query end...2015-02-04 16:42:16.235974
+json append start...2015-02-04 16:42:16.235995
+json append end...2015-02-04 16:42:16.261207
+return start...2015-02-04 16:42:16.400720
+>>>...MODULE:srv_cn_options_year()2015-02-04 16:47:45.348750
+>>>...MODULE:srv_cn_get_all()2015-02-04 16:50:12.038468
+query start...2015-02-04 16:50:12.038498
+query end...2015-02-04 16:50:12.041448
+json append start...2015-02-04 16:50:12.041475
+json append end...2015-02-04 16:50:12.063586
+return start...2015-02-04 16:50:12.209034
+>>>...MODULE:srv_cn_get_all()2015-02-04 16:50:29.812723
+query start...2015-02-04 16:50:29.812752
+query end...2015-02-04 16:50:29.820604
+json append start...2015-02-04 16:50:29.820648
+json append end...2015-02-04 16:50:29.848903
+return start...2015-02-04 16:50:29.994879
+>>>...MODULE:srv_cn_options_year()2015-02-04 16:50:32.982723
+>>>...MODULE:srv_cn_options_year()2015-02-04 16:53:18.328788
+>>>...MODULE:srv_cn_options_year()2015-02-04 16:53:33.144331
+>>>...MODULE:srv_cn_options_year()2015-02-04 16:53:54.759940
+>>>...MODULE:srv_cn_options_year()2015-02-04 16:54:06.725334
+>>>...MODULE:srv_cn_get_all()2015-02-04 17:05:04.251636
+query start...2015-02-04 17:05:04.251665
+query end...2015-02-04 17:05:04.290007
+json append start...2015-02-04 17:05:04.290050
+json append end...2015-02-04 17:05:04.314521
+return start...2015-02-04 17:05:04.464349
+>>>...MODULE:srv_cn_options_year()2015-02-04 17:05:10.550711
+>>>...MODULE:srv_cn_options_year()2015-02-04 17:05:30.177383
+>>>...MODULE:srv_cn_options_year()2015-02-04 17:05:52.819453
+>>>...MODULE:srv_cn_options_year()2015-02-04 17:05:59.860115
+>>>...MODULE:srv_cn_get_all()2015-02-04 17:06:43.665828
+query start...2015-02-04 17:06:43.665856
+query end...2015-02-04 17:06:43.668839
+json append start...2015-02-04 17:06:43.668860
+json append end...2015-02-04 17:06:43.689990
+return start...2015-02-04 17:06:43.829526
+>>>...MODULE:srv_cn_options_year()2015-02-04 17:06:46.575982
+>>>...MODULE:srv_cn_options_year()2015-02-04 17:06:58.509881
+>>>...MODULE:srv_cn_options_year()2015-02-04 17:07:05.829110
+>>>...MODULE:srv_cn_get_all()2015-02-04 17:09:15.999731
+query start...2015-02-04 17:09:15.999761
+query end...2015-02-04 17:09:16.002399
+json append start...2015-02-04 17:09:16.002428
+json append end...2015-02-04 17:09:16.021906
+return start...2015-02-04 17:09:16.181729
+>>>...MODULE:srv_cn_options_year()2015-02-04 17:09:18.631092
+>>>...MODULE:srv_cn_options_year()2015-02-04 17:09:22.397787
+>>>...MODULE:srv_cn_options_year()2015-02-04 17:09:27.680581
+>>>...MODULE:srv_cn_options_year()2015-02-04 17:09:34.869747

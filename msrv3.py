@@ -165,6 +165,27 @@ def srv_cn_insert_one():
             return "01x000"
 
 
+##year option api
+@app.route('/srv/cn/oprions/year/', methods=["GET","POST"])
+@cross_origin()
+def srv_cn_options_year():
+    log = open(LOG_FILE_FULL_PATH, 'a+')
+    log.write(">>>...MODULE:srv_cn_options_year()"+str(datetime.datetime.now())+"\r\n")
+    return_json = []
+    return_json.clear()
+    find_result = record_query(conf.DB_CN, conf.COLLECTION_CN_OPTIONS_YEAR, {})
+    for post in find_result:
+        return_json.append(post)
+    try:
+        return_result = bson.json_util.dumps(return_json, ensure_ascii="false")
+        log.close()
+        return return_result
+    except Exception as e:
+        log.write("jsonify error: "+str(e)+"\r\n")
+        log.close()
+        return return_result
+
+
 #=============================== cn upload file =========================================
 
 #file extension filter

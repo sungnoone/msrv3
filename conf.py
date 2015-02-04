@@ -26,8 +26,15 @@ DB_PORT = 27017
 DB_CN = "cn"
 COLLECTION_CN_WORDS = "words"
 COLLECTION_CN_WORDS_CLASS1 = "words_class1"
+COLLECTION_CN_OPTIONS_YEAR = "options_year"
 
 #fields name map
+#
 CN_WORDS_ID = "words_id"
 CN_WORDS_CONTENT = "words_content"
+
+#fields name map
+#options_year
+CN_OPTIONS_YEAR_YEAR = "year"
+
 
