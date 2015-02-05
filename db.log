@@ -733,3 +733,93 @@ DB: cn
 Collection: options_year
 Query Content: {}
 query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:20:23.080447
+DB: cn
+Collection: words_class1
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:20:27.207393
+DB: cn
+Collection: options_year
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:21:37.068373
+DB: cn
+Collection: options_year
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:21:43.985321
+DB: cn
+Collection: options_year
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:21:49.972755
+DB: cn
+Collection: options_year
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:22:23.047748
+DB: cn
+Collection: options_year
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:22:28.177557
+DB: cn
+Collection: options_year
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:24:02.968956
+DB: cn
+Collection: words_class1
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:25:00.020845
+DB: cn
+Collection: options_year
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:25:31.146961
+DB: cn
+Collection: options_year
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:25:46.961341
+DB: cn
+Collection: options_year
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:26:09.033001
+DB: cn
+Collection: options_year
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:26:38.033788
+DB: cn
+Collection: options_year
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:26:52.498176
+DB: cn
+Collection: options_year
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:27:10.566326
+DB: cn
+Collection: options_year
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:27:19.858607
+DB: cn
+Collection: options_year
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:30:26.921076
+DB: cn
+Collection: options_year
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-02-05 08:30:38.497999
+DB: cn
+Collection: options_year
+Query Content: {}
+query data OK.

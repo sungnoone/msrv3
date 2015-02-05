@@ -293,3 +293,31 @@ return start...2015-02-04 17:09:16.181729
 >>>...MODULE:srv_cn_options_year()2015-02-04 17:09:22.397787
 >>>...MODULE:srv_cn_options_year()2015-02-04 17:09:27.680581
 >>>...MODULE:srv_cn_options_year()2015-02-04 17:09:34.869747
+>>>...MODULE:srv_cn_get_all()2015-02-05 08:20:23.059071
+query start...2015-02-05 08:20:23.059358
+query end...2015-02-05 08:20:23.093401
+json append start...2015-02-05 08:20:23.093428
+json append end...2015-02-05 08:20:23.127192
+return start...2015-02-05 08:20:23.282649
+>>>...MODULE:srv_cn_options_year()2015-02-05 08:20:27.207305
+>>>...MODULE:srv_cn_options_year()2015-02-05 08:21:37.068283
+>>>...MODULE:srv_cn_options_year()2015-02-05 08:21:43.985148
+>>>...MODULE:srv_cn_options_year()2015-02-05 08:21:49.972668
+>>>...MODULE:srv_cn_options_year()2015-02-05 08:22:23.047660
+>>>...MODULE:srv_cn_options_year()2015-02-05 08:22:28.177464
+>>>...MODULE:srv_cn_get_all()2015-02-05 08:24:02.968860
+query start...2015-02-05 08:24:02.968887
+query end...2015-02-05 08:24:02.971717
+json append start...2015-02-05 08:24:02.971742
+json append end...2015-02-05 08:24:02.990787
+return start...2015-02-05 08:24:03.129869
+>>>...MODULE:srv_cn_options_year()2015-02-05 08:25:00.020752
+>>>...MODULE:srv_cn_options_year()2015-02-05 08:25:31.146871
+>>>...MODULE:srv_cn_options_year()2015-02-05 08:25:46.961229
+>>>...MODULE:srv_cn_options_year()2015-02-05 08:26:09.032914
+>>>...MODULE:srv_cn_options_year()2015-02-05 08:26:38.033676
+>>>...MODULE:srv_cn_options_year()2015-02-05 08:26:52.498089
+>>>...MODULE:srv_cn_options_year()2015-02-05 08:27:10.566170
+>>>...MODULE:srv_cn_options_year()2015-02-05 08:27:19.858518
+>>>...MODULE:srv_cn_options_year()2015-02-05 08:30:26.920988
+>>>...MODULE:srv_cn_options_year()2015-02-05 08:30:38.497911

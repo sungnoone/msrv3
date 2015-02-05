@@ -29,8 +29,8 @@
       <file leaf-file-name="msrv3.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/msrv3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58508605" vertical-offset="2409" max-vertical-offset="5910">
-              <caret line="181" column="28" selection-start-line="181" selection-start-column="28" selection-end-line="181" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.15487571" vertical-offset="1224" max-vertical-offset="5910">
+              <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -541,8 +541,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/msrv3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58508605" vertical-offset="2409" max-vertical-offset="5910">
-          <caret line="181" column="28" selection-start-line="181" selection-start-column="28" selection-end-line="181" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.15487571" vertical-offset="1224" max-vertical-offset="5910">
+          <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
