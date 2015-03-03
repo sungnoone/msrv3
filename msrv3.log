@@ -1,0 +1,480 @@
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:44:28.815128
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_get_all()2015-02-11 10:49:46.861481
+query start...2015-02-11 10:49:46.861523
+query end...2015-02-11 10:49:46.864773
+json append start...2015-02-11 10:49:46.864798
+json append end...2015-02-11 10:49:46.885793
+return start...2015-02-11 10:49:47.115620
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:49:49.613257
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_get_all()2015-02-11 10:51:33.848031
+query start...2015-02-11 10:51:33.848076
+query end...2015-02-11 10:51:33.851374
+json append start...2015-02-11 10:51:33.851513
+json append end...2015-02-11 10:51:33.874307
+return start...2015-02-11 10:51:34.129056
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:51:37.484646
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:51:47.597199
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:51:56.356060
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:52:04.204026
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_get_all()2015-02-11 10:52:07.936475
+query start...2015-02-11 10:52:07.936536
+query end...2015-02-11 10:52:07.939716
+json append start...2015-02-11 10:52:07.939743
+json append end...2015-02-11 10:52:07.961783
+return start...2015-02-11 10:52:08.159467
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:52:35.633543
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:52:46.252027
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:52:53.489180
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:52:57.560901
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_get_all()2015-02-11 10:53:30.796562
+query start...2015-02-11 10:53:30.796590
+query end...2015-02-11 10:53:30.799708
+json append start...2015-02-11 10:53:30.799732
+json append end...2015-02-11 10:53:30.819394
+return start...2015-02-11 10:53:31.018160
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:53:33.607105
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:53:41.032517
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:53:46.546430
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:53:50.017208
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:53:53.441318
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:53:59.631228
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:54:02.543700
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:54:05.583531
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_del_single()2015-02-11 10:54:19.703054
+
+request data fail: Expecting value: line 1 column 1 (char 0)
+>>>...MODULE:srv_cn_get_all()2015-02-11 11:05:32.741537
+query start...2015-02-11 11:05:32.741591
+query end...2015-02-11 11:05:32.745248
+json append start...2015-02-11 11:05:32.745272
+json append end...2015-02-11 11:05:32.768521
+return start...2015-02-11 11:05:33.022187
+>>>...MODULE:srv_cn_get_all()2015-02-11 13:24:06.313774
+query start...2015-02-11 13:24:06.313895
+query end...2015-02-11 13:24:06.367202
+json append start...2015-02-11 13:24:06.367278
+json append end...2015-02-11 13:24:06.399606
+return start...2015-02-11 13:24:06.588421
+>>>...MODULE:srv_cn_get_all()2015-02-11 13:25:02.700116
+query start...2015-02-11 13:25:02.700143
+query end...2015-02-11 13:25:02.703313
+json append start...2015-02-11 13:25:02.703353
+json append end...2015-02-11 13:25:02.725848
+return start...2015-02-11 13:25:02.920067
+>>>...MODULE:srv_cn_get_all()2015-02-11 13:25:44.040101
+query start...2015-02-11 13:25:44.040128
+query end...2015-02-11 13:25:44.043692
+json append start...2015-02-11 13:25:44.043714
+json append end...2015-02-11 13:25:44.065937
+return start...2015-02-11 13:25:44.268527
+>>>...MODULE:srv_cn_get_all()2015-02-11 13:27:33.620579
+query start...2015-02-11 13:27:33.620625
+query end...2015-02-11 13:27:33.623640
+json append start...2015-02-11 13:27:33.623664
+json append end...2015-02-11 13:27:33.644991
+return start...2015-02-11 13:27:33.837042
+>>>...MODULE:srv_cn_get_all()2015-02-11 13:30:13.385113
+query start...2015-02-11 13:30:13.385142
+query end...2015-02-11 13:30:13.403619
+json append start...2015-02-11 13:30:13.403667
+json append end...2015-02-11 13:30:13.431385
+return start...2015-02-11 13:30:13.650154
+>>>...MODULE:srv_cn_options_year()2015-02-11 14:23:05.730384
+>>>...MODULE:srv_cn_insert_single()2015-02-11 14:23:16.550299
+request data content: {"編號":"19","年度":"106","年級":"4","課次":" 第二課  水中奇景  ","生字":"膽","生字注音":"膽","部首":"肉","部首注音":"肉","總筆畫":"17","部首外筆畫":"13","字義教學":"1.內臟器官之一。近肝臟右半葉，所存膽汁，黃綠色，味苦，有助人體消化的功能。如：膽囊。\n2.勇氣，古人以為勇氣由膽發出。如：膽小、壯膽。","造詞教學-造詞":"海膽","造詞教學1":"解釋\n動物名。無脊椎動物棘皮動物門。雌雄異體，體呈球形，紫黑色，殼面硬棘叢生。\n例句\n如果世界上的海膽都消失的話，會破壞現在的生態平衡。","造詞教學2":"1.膽小\n解釋\n缺乏勇氣。\n2.膽量\n解釋\n勇氣。","成語教學":"膽大心細\n解釋\n做事勇敢果斷而思慮周密。\n造句\n老師叮嚀我們，做實驗要「膽大心細」，才能得到正確的答案。","字形辨別":"膽（肉）：膽量、膽怯擔（?）：擔保、擔柴瞻（目）：瞻望、瞻仰","字音辨別":"不製作","教學圖卡":"是","jqGrid_id":"19"}
+request data dict: {'造詞教學1': '解釋\n動物名。無脊椎動物棘皮動物門。雌雄異體，體呈球形，紫黑色，殼面硬棘叢生。\n例句\n如果世界上的海膽都消失的話，會破壞現在的生態平衡。', '部首外筆畫': '13', '部首注音': '肉', '字音辨別': '不製作', '成語教學': '膽大心細\n解釋\n做事勇敢果斷而思慮周密。\n造句\n老師叮嚀我們，做實驗要「膽大心細」，才能得到正確的答案。', '部首': '肉', '課次': ' 第二課  水中奇景  ', '字義教學': '1.內臟器官之一。近肝臟右半葉，所存膽汁，黃綠色，味苦，有助人體消化的功能。如：膽囊。\n2.勇氣，古人以為勇氣由膽發出。如：膽小、壯膽。', '總筆畫': '17', '年度': '106', '生字': '膽', '編號': '19', 'jqGrid_id': '19', '字形辨別': '膽（肉）：膽量、膽怯擔（?）：擔保、擔柴瞻（目）：瞻望、瞻仰', '教學圖卡': '是', '生字注音': '膽', '造詞教學2': '1.膽小\n解釋\n缺乏勇氣。\n2.膽量\n解釋\n勇氣。', '造詞教學-造詞': '海膽', '年級': '4'}
+造詞教學1
+部首外筆畫
+部首注音
+字音辨別
+成語教學
+部首
+課次
+字義教學
+總筆畫
+年度
+生字
+編號
+jqGrid_id
+字形辨別
+教學圖卡
+生字注音
+造詞教學2
+造詞教學-造詞
+年級
+before find result
+update OK: {'updatedExisting': True, 'n': 1, 'ok': 1, 'nModified': 1}
+>>>...MODULE:srv_cn_get_all()2015-02-11 14:23:29.894753
+query start...2015-02-11 14:23:29.894780
+query end...2015-02-11 14:23:29.897932
+json append start...2015-02-11 14:23:29.897989
+json append end...2015-02-11 14:23:29.920386
+return start...2015-02-11 14:23:30.167921
+>>>...MODULE:srv_cn_get_all()2015-02-11 16:39:01.690318
+query start...2015-02-11 16:39:01.690360
+query end...2015-02-11 16:39:01.693691
+json append start...2015-02-11 16:39:01.693716
+json append end...2015-02-11 16:39:01.714104
+return start...2015-02-11 16:39:01.981418
+>>>...MODULE:srv_cn_del_single()2015-02-11 16:39:04.885216
+3
+request data content: 3
+>>>...MODULE:srv_cn_del_single()2015-02-11 16:39:36.919970
+4
+request data content: 4
+>>>...MODULE:srv_cn_del_single()2015-02-11 16:40:36.177116
+409
+request data content: 409
+>>>...MODULE:srv_cn_get_all()2015-02-17 15:55:40.525177
+query start...2015-02-17 15:55:40.536642
+query end...2015-02-17 15:55:40.638576
+json append start...2015-02-17 15:55:40.638624
+json append end...2015-02-17 15:55:40.679385
+return start...2015-02-17 15:55:40.894644
+>>>...MODULE:srv_cn_get_all()2015-02-24 14:00:41.216815
+query start...2015-02-24 14:00:41.217147
+query end...2015-02-24 14:00:41.357700
+json append start...2015-02-24 14:00:41.357765
+json append end...2015-02-24 14:00:41.401093
+return start...2015-02-24 14:00:41.700564
+>>>...MODULE:srv_cn_del_single()2015-02-24 14:00:50.203747
+363
+request data content: 363
+>>>...MODULE:srv_cn_options_year()2015-02-24 14:01:01.859077
+>>>...MODULE:srv_cn_get_all()2015-02-24 14:01:13.625426
+query start...2015-02-24 14:01:13.625456
+query end...2015-02-24 14:01:13.628128
+json append start...2015-02-24 14:01:13.628156
+json append end...2015-02-24 14:01:13.745993
+return start...2015-02-24 14:01:13.932348
+>>>...MODULE:srv_cn_del_single()2015-02-24 14:01:33.150604
+410
+request data content: 410
+>>>...MODULE:srv_cn_get_all()2015-02-24 14:01:36.871861
+query start...2015-02-24 14:01:36.871889
+query end...2015-02-24 14:01:36.874373
+json append start...2015-02-24 14:01:36.874394
+json append end...2015-02-24 14:01:36.894210
+return start...2015-02-24 14:01:37.075984
+>>>...MODULE: upload_csv_file()2015-02-25 11:33:17.552657
+POST
+ImmutableMultiDict([('files[]', <FileStorage: 'WebStorm-9.0.2.dmg' ('application/octet-stream')>)])
+<FileStorage: 'WebStorm-9.0.2.dmg' ('application/octet-stream')>
+>>>...MODULE: upload_csv_file()2015-02-25 11:34:26.844847
+POST
+ImmutableMultiDict([('files[]', <FileStorage: 'sample1-1.csv' ('text/csv')>)])
+<FileStorage: 'sample1-1.csv' ('text/csv')>
+>>>...MODULE: upload_csv_file()2015-02-25 11:34:37.746428
+POST
+ImmutableMultiDict([('files[]', <FileStorage: 'sample1-2.csv' ('text/csv')>)])
+<FileStorage: 'sample1-2.csv' ('text/csv')>
+>>>...MODULE:srv_cn_get_all()2015-02-25 11:42:54.157914
+query start...2015-02-25 11:42:54.157944
+query end...2015-02-25 11:42:54.161789
+json append start...2015-02-25 11:42:54.161856
+json append end...2015-02-25 11:42:54.389255
+return start...2015-02-25 11:42:56.055440
+>>>...MODULE:srv_cn_del_single()2015-02-25 11:46:13.491579
+451
+request data content: 451
+>>>...MODULE:srv_cn_get_all()2015-02-25 11:46:32.059749
+query start...2015-02-25 11:46:32.059777
+query end...2015-02-25 11:46:32.142902
+json append start...2015-02-25 11:46:32.142946
+json append end...2015-02-25 11:46:32.300063
+return start...2015-02-25 11:46:33.863735
+>>>...MODULE:srv_cn_options_year()2015-02-25 11:46:49.506605
+>>>...MODULE:srv_cn_insert_single()2015-02-25 11:46:53.913052
+request data content: {"編號":"2798","年度":"106","年級":"4","課次":"第七課  收藏秋天","生字":"蜿","生字注音":"蜿","部首":"虫","部首注音":"悔","總筆畫":"14","部首外筆畫":"8","字義教學":"形容河流、道路等曲折延伸的樣子。如：蜿蜒","造詞教學-造詞":"蜿蜒","造詞教學1":"解釋\n形容河流、道路等曲折延伸的樣子。\n例句\n順著這條蜿蜒的小路下去，就可到達河邊。","造詞教學2":"蜿蜒\n解釋\n形容河流、道路等曲折延伸的樣子。","成語教學":"不製作","字形辨別":"蜿（虫）：蜿蜒碗（石）：飯碗、碗筷婉（女）：婉轉、婉約惋（?）：惋惜、惋嘆腕（  左邊要造字  ）：手腕、扼腕","字音辨別":"不製作","教學圖卡":"不製作","jqGrid_id":"3248"}
+request data dict: {'編號': '2798', '年度': '106', '字音辨別': '不製作', '造詞教學2': '蜿蜒\n解釋\n形容河流、道路等曲折延伸的樣子。', '造詞教學-造詞': '蜿蜒', '課次': '第七課  收藏秋天', '部首外筆畫': '8', '教學圖卡': '不製作', '部首注音': '悔', '年級': '4', '生字': '蜿', '成語教學': '不製作', '部首': '虫', '生字注音': '蜿', '字義教學': '形容河流、道路等曲折延伸的樣子。如：蜿蜒', 'jqGrid_id': '3248', '字形辨別': '蜿（虫）：蜿蜒碗（石）：飯碗、碗筷婉（女）：婉轉、婉約惋（?）：惋惜、惋嘆腕（  左邊要造字  ）：手腕、扼腕', '總筆畫': '14', '造詞教學1': '解釋\n形容河流、道路等曲折延伸的樣子。\n例句\n順著這條蜿蜒的小路下去，就可到達河邊。'}
+編號
+年度
+字音辨別
+造詞教學2
+造詞教學-造詞
+課次
+部首外筆畫
+教學圖卡
+部首注音
+年級
+生字
+成語教學
+部首
+生字注音
+字義教學
+jqGrid_id
+字形辨別
+總筆畫
+造詞教學1
+before find result
+update OK: {'n': 1, 'ok': 1, 'updatedExisting': True, 'nModified': 1}
+>>>...MODULE: upload_csv_file()2015-02-25 14:00:08.068189
+POST
+ImmutableMultiDict([('files[]', <FileStorage: 'sample1-2.csv' ('text/csv')>)])
+<FileStorage: 'sample1-2.csv' ('text/csv')>
+>>>...MODULE:srv_cn_get_all()2015-02-25 14:00:24.622731
+query start...2015-02-25 14:00:24.622762
+query end...2015-02-25 14:00:24.625132
+json append start...2015-02-25 14:00:24.625151
+json append end...2015-02-25 14:00:24.644924
+return start...2015-02-25 14:00:24.837686
+>>>...MODULE:srv_cn_options_year()2015-02-25 14:00:36.792613
+>>>...MODULE:srv_cn_insert_single()2015-02-25 14:00:41.520654
+request data content: {"編號":"59","年度":"106","年級":"4","課次":"第四課  海底世界  ","生字":"質","生字注音":"質","部首":"貝","部首注音":"貝","總筆畫":"15","部首外筆畫":"8","字義教學":"1.事物的根本特性。如：本質、特質、流質\n2.人的天性稟賦。如：資質、氣質\n3.樸實的本性。如：質樸、文質彬彬\n4.詢問。如：質問、質詢、質疑","造詞教學-造詞":"礦物質","造詞教學1":"解釋\n含礦物成分的物質。在人體中約有鈣、磷、鐵等二十餘種礦物質，主要功能為構造細胞組織、調節生理機能。\n例句\n植物從泥土中吸收礦物質和其他養分。","造詞教學2":"1.地質\n解釋\n泛指地殼中岩石或礦物的種類、性質、成分、分布和結構。\n2.流質\n解釋\n液狀的物質。","成語教學":"文質彬彬\n解釋\n容人舉止文雅，態度端莊。\n造句\n看他文質彬彬，談吐不俗，是一位有為的年輕人。","字形辨別":"不製作","字音辨別":"不製作","教學圖卡":"不製作","jqGrid_id":"59"}
+request data dict: {'編號': '59', '年度': '106', '字音辨別': '不製作', '造詞教學2': '1.地質\n解釋\n泛指地殼中岩石或礦物的種類、性質、成分、分布和結構。\n2.流質\n解釋\n液狀的物質。', '造詞教學-造詞': '礦物質', '課次': '第四課  海底世界  ', '部首外筆畫': '8', '教學圖卡': '不製作', '部首注音': '貝', '年級': '4', '生字': '質', '成語教學': '文質彬彬\n解釋\n容人舉止文雅，態度端莊。\n造句\n看他文質彬彬，談吐不俗，是一位有為的年輕人。', '部首': '貝', '生字注音': '質', '字義教學': '1.事物的根本特性。如：本質、特質、流質\n2.人的天性稟賦。如：資質、氣質\n3.樸實的本性。如：質樸、文質彬彬\n4.詢問。如：質問、質詢、質疑', 'jqGrid_id': '59', '字形辨別': '不製作', '總筆畫': '15', '造詞教學1': '解釋\n含礦物成分的物質。在人體中約有鈣、磷、鐵等二十餘種礦物質，主要功能為構造細胞組織、調節生理機能。\n例句\n植物從泥土中吸收礦物質和其他養分。'}
+編號
+年度
+字音辨別
+造詞教學2
+造詞教學-造詞
+課次
+部首外筆畫
+教學圖卡
+部首注音
+年級
+生字
+成語教學
+部首
+生字注音
+字義教學
+jqGrid_id
+字形辨別
+總筆畫
+造詞教學1
+before find result
+update OK: {'n': 1, 'ok': 1, 'updatedExisting': True, 'nModified': 1}
+>>>...MODULE:srv_cn_get_all()2015-02-25 14:01:04.626444
+query start...2015-02-25 14:01:04.626479
+query end...2015-02-25 14:01:04.631134
+json append start...2015-02-25 14:01:04.631166
+json append end...2015-02-25 14:01:04.677447
+return start...2015-02-25 14:01:04.921111
+>>>...MODULE:srv_cn_options_year()2015-02-25 14:01:32.766948
+>>>...MODULE:srv_cn_insert_single()2015-02-25 14:02:45.167087
+request data content: {"編號":"409","年度":"104","年級":"4","課次":"第七課  收藏秋天","生字":"翩","生字注音":"翩","部首":"羽","部首注音":"羽","總筆畫":"15","部首外筆畫":"9","字義教學":"1.搖曳飄忽的樣子。如：翩翩飛起、翩然而至\n5.風流瀟灑的樣子。如：風度翩翩","造詞教學-造詞":"翩翩起舞","造詞教學1":"解釋\n輕盈愉快的跳起舞來。\n例句\n春天到了，蝴蝶在花園裡翩翩起舞，非常美麗。","造詞教學2":"1.翩然\n解釋\n行動飄忽輕捷的樣子。\n5.翩翩\n解釋\n形容文采風流、舉止灑脫的樣子。","成語教學":"不製作","字形辨別":"翩（羽）：翩翩起舞遍（?）：一遍、普遍篇（竹部要造字    ）：一篇、詩篇編（?）：編織、編輯偏（?）：偏向、偏好扁：扁平、扁桃腺匾（?）：匾額","字音辨別":"不製作","教學圖卡":"不製作","jqGrid_id":"409"}
+request data dict: {'編號': '409', '年度': '104', '字音辨別': '不製作', '造詞教學2': '1.翩然\n解釋\n行動飄忽輕捷的樣子。\n5.翩翩\n解釋\n形容文采風流、舉止灑脫的樣子。', '造詞教學-造詞': '翩翩起舞', '課次': '第七課  收藏秋天', '部首外筆畫': '9', '教學圖卡': '不製作', '部首注音': '羽', '年級': '4', '生字': '翩', '成語教學': '不製作', '部首': '羽', '生字注音': '翩', '字義教學': '1.搖曳飄忽的樣子。如：翩翩飛起、翩然而至\n5.風流瀟灑的樣子。如：風度翩翩', 'jqGrid_id': '409', '字形辨別': '翩（羽）：翩翩起舞遍（?）：一遍、普遍篇（竹部要造字    ）：一篇、詩篇編（?）：編織、編輯偏（?）：偏向、偏好扁：扁平、扁桃腺匾（?）：匾額', '總筆畫': '15', '造詞教學1': '解釋\n輕盈愉快的跳起舞來。\n例句\n春天到了，蝴蝶在花園裡翩翩起舞，非常美麗。'}
+編號
+年度
+字音辨別
+造詞教學2
+造詞教學-造詞
+課次
+部首外筆畫
+教學圖卡
+部首注音
+年級
+生字
+成語教學
+部首
+生字注音
+字義教學
+jqGrid_id
+字形辨別
+總筆畫
+造詞教學1
+before find result
+update OK: {'n': 1, 'ok': 1, 'updatedExisting': True, 'nModified': 1}
+>>>...MODULE:srv_cn_get_all()2015-02-25 14:02:59.621735
+query start...2015-02-25 14:02:59.621763
+query end...2015-02-25 14:02:59.624180
+json append start...2015-02-25 14:02:59.624375
+json append end...2015-02-25 14:02:59.643853
+return start...2015-02-25 14:02:59.787064
+>>>...MODULE:srv_cn_get_all()2015-02-25 15:05:56.063690
+query start...2015-02-25 15:05:56.063756
+query end...2015-02-25 15:05:56.094013
+json append start...2015-02-25 15:05:56.094055
+json append end...2015-02-25 15:05:56.116811
+return start...2015-02-25 15:05:56.318028
+>>>...MODULE:srv_cn_get_all()2015-02-26 11:49:54.217206
+query start...2015-02-26 11:49:54.217681
+query end...2015-02-26 11:49:54.251761
+json append start...2015-02-26 11:49:54.251812
+json append end...2015-02-26 11:49:54.355861
+return start...2015-02-26 11:49:54.539176
+>>>...MODULE:srv_cn_get_all()2015-02-26 11:56:36.993793
+query start...2015-02-26 11:56:36.993822
+query end...2015-02-26 11:56:37.033623
+json append start...2015-02-26 11:56:37.033676
+json append end...2015-02-26 11:56:37.059795
+return start...2015-02-26 11:56:37.262879
+>>>...MODULE:srv_cn_get_all()2015-02-26 12:01:08.508538
+query start...2015-02-26 12:01:08.508571
+query end...2015-02-26 12:01:08.547279
+json append start...2015-02-26 12:01:08.547325
+json append end...2015-02-26 12:01:08.570465
+return start...2015-02-26 12:01:08.718364
+>>>...MODULE:srv_cn_get_all()2015-02-26 13:25:16.044470
+query start...2015-02-26 13:25:16.044528
+query end...2015-02-26 13:25:16.082883
+json append start...2015-02-26 13:25:16.082932
+json append end...2015-02-26 13:25:16.109657
+return start...2015-02-26 13:25:16.385362
+>>>...MODULE:srv_cn_get_all()2015-02-26 13:25:16.417114
+query start...2015-02-26 13:25:16.417141
+query end...2015-02-26 13:25:16.427218
+json append start...2015-02-26 13:25:16.427296
+json append end...2015-02-26 13:25:16.481979
+return start...2015-02-26 13:25:16.710187
+>>>...MODULE:srv_cn_get_all()2015-02-26 13:25:44.503801
+query start...2015-02-26 13:25:44.503829
+query end...2015-02-26 13:25:44.506440
+json append start...2015-02-26 13:25:44.506459
+json append end...2015-02-26 13:25:44.525015
+return start...2015-02-26 13:25:44.663692
+>>>...MODULE:srv_cn_get_all()2015-02-26 13:32:12.430498
+query start...2015-02-26 13:32:12.430526
+query end...2015-02-26 13:32:12.433580
+json append start...2015-02-26 13:32:12.433600
+json append end...2015-02-26 13:32:12.452650
+return start...2015-02-26 13:32:12.602007
+>>>...MODULE:srv_cn_get_all()2015-02-26 13:41:47.307814
+query start...2015-02-26 13:41:47.307858
+query end...2015-02-26 13:41:47.347290
+json append start...2015-02-26 13:41:47.347335
+json append end...2015-02-26 13:41:47.373800
+return start...2015-02-26 13:41:47.514717
+>>>...MODULE:srv_cn_get_all()2015-02-26 13:42:59.598928
+query start...2015-02-26 13:42:59.598973
+Query db error! record_query() missing 1 required positional argument: 'log_file_path'
+>>>...MODULE:srv_cn_get_all()2015-03-02 08:54:54.987319
+query start...2015-03-02 08:54:54.987395
+Query db error! record_query() missing 1 required positional argument: 'log_file_path'
+>>>...MODULE:srv_cn_get_all()2015-03-02 09:22:43.158714
+query start...2015-03-02 09:22:43.158759
+Query db error! record_query() missing 1 required positional argument: 'log_file_path'
+>>>...MODULE:srv_cn_get_all()2015-03-02 09:36:14.543650
+query start...2015-03-02 09:36:14.543703
+Query db error! record_query() missing 1 required positional argument: 'log_file_path'
+>>>...MODULE:srv_cn_get_all()2015-03-02 09:36:54.548377
+query start...2015-03-02 09:36:54.548406
+Query db error! record_query() missing 1 required positional argument: 'log_file_path'
+>>>...MODULE:srv_cn_get_all()2015-03-02 09:39:48.197512
+query start...2015-03-02 09:39:48.197541
+Query db error! record_query() missing 1 required positional argument: 'log_file_path'
+>>>...MODULE:srv_cn_get_all()2015-03-02 09:46:03.403011
+query start...2015-03-02 09:46:03.403049
+query end...2015-03-02 09:46:03.406754
+json append start...2015-03-02 09:46:03.406774
+json append end...2015-03-02 09:46:03.427965
+return start...2015-03-02 09:46:03.583138
+>>>...MODULE:srv_cn_get_all()2015-03-02 09:47:40.427674
+query start...2015-03-02 09:47:40.427716
+/Users/hl/WebstormProjects/msrv3/db.log
+query end...2015-03-02 09:47:40.430682
+json append start...2015-03-02 09:47:40.430702
+json append end...2015-03-02 09:47:40.452211
+return start...2015-03-02 09:47:40.604696
+>>>...MODULE:srv_cn_get_all()2015-03-02 10:32:42.317675
+query start...2015-03-02 10:32:42.317716
+/Users/hl/WebstormProjects/msrv3/db.log
+query end...2015-03-02 10:32:42.321268
+json append start...2015-03-02 10:32:42.321289
+json append end...2015-03-02 10:32:42.343024
+return start...2015-03-02 10:32:42.486113
+>>>...MODULE:srv_cn_options_year()2015-03-02 10:32:46.025118
+>>>...MODULE:srv_cn_insert_single()2015-03-02 10:32:52.677176
+request data content: {"編號":"3","年度":"106","年級":"4","課次":"第一課 藍色的海洋大軍  ","生字":"兵","生字注音":"兵","部首":"八","部首注音":"八","總筆畫":"7","部首外筆畫":"5","字義教學":"1.武器。如：兵器、短兵相接\n2.戰士、軍隊。如：調兵遣將、按兵不動\n3.戰爭。如：兵連禍結、兵荒馬亂\n4.有關軍事或戰爭的事。如：紙上談兵、談笑用兵、兵不厭詐\n5.專指軍隊中的基層成員。如：炮兵、步兵\n6.姓。如：兵先生","造詞教學-造詞":"小兵","造詞教學1":"解釋\n軍隊中的基層成員。\n例句\n大將軍派小兵們輪值守夜，以防敵軍突襲。","造詞教學2":"1.兵器\n解釋\n武器。\n2.當兵\n解釋\n服兵役。","成語教學":"賠了夫人又折兵\n解釋\n比喻不但沒有占到便宜，反而吃了大虧。\n造句\n不要這麼做，會讓你賠了夫人又折兵的。","字形辨別":"不製作","字音辨別":"不製作","教學圖卡":"不製作","jqGrid_id":"3"}
+request data dict: {'成語教學': '賠了夫人又折兵\n解釋\n比喻不但沒有占到便宜，反而吃了大虧。\n造句\n不要這麼做，會讓你賠了夫人又折兵的。', '生字': '兵', '字義教學': '1.武器。如：兵器、短兵相接\n2.戰士、軍隊。如：調兵遣將、按兵不動\n3.戰爭。如：兵連禍結、兵荒馬亂\n4.有關軍事或戰爭的事。如：紙上談兵、談笑用兵、兵不厭詐\n5.專指軍隊中的基層成員。如：炮兵、步兵\n6.姓。如：兵先生', '造詞教學2': '1.兵器\n解釋\n武器。\n2.當兵\n解釋\n服兵役。', '部首外筆畫': '5', '部首': '八', '教學圖卡': '不製作', 'jqGrid_id': '3', '年級': '4', '部首注音': '八', '生字注音': '兵', '課次': '第一課 藍色的海洋大軍  ', '造詞教學1': '解釋\n軍隊中的基層成員。\n例句\n大將軍派小兵們輪值守夜，以防敵軍突襲。', '總筆畫': '7', '年度': '106', '造詞教學-造詞': '小兵', '字形辨別': '不製作', '編號': '3', '字音辨別': '不製作'}
+成語教學
+生字
+字義教學
+造詞教學2
+部首外筆畫
+部首
+教學圖卡
+jqGrid_id
+年級
+部首注音
+生字注音
+課次
+造詞教學1
+總筆畫
+年度
+造詞教學-造詞
+字形辨別
+編號
+字音辨別
+before find result
+update OK: {'n': 1, 'nModified': 1, 'ok': 1, 'updatedExisting': True}
+>>>...MODULE:srv_cn_get_all()2015-03-02 10:33:12.320020
+query start...2015-03-02 10:33:12.320049
+/Users/hl/WebstormProjects/msrv3/db.log
+query end...2015-03-02 10:33:12.322308
+json append start...2015-03-02 10:33:12.322328
+json append end...2015-03-02 10:33:12.343293
+return start...2015-03-02 10:33:12.490246
+>>>...MODULE:srv_cn_get_all()2015-03-02 11:24:00.687273
+query start...2015-03-02 11:24:00.687318
+/Users/hl/WebstormProjects/msrv3/db.log
+query end...2015-03-02 11:24:00.691718
+json append start...2015-03-02 11:24:00.691777
+json append end...2015-03-02 11:24:00.716468
+return start...2015-03-02 11:24:01.014838
+>>>...MODULE:srv_cn_get_all()2015-03-02 11:25:31.988512
+query start...2015-03-02 11:25:31.988540
+/Users/hl/WebstormProjects/msrv3/db.log
+query end...2015-03-02 11:25:32.012017
+json append start...2015-03-02 11:25:32.012060
+json append end...2015-03-02 11:25:32.044577
+return start...2015-03-02 11:25:32.292943
+>>>...MODULE:srv_cn_get_all()2015-03-02 11:25:53.206921
+query start...2015-03-02 11:25:53.207012
+/Users/hl/WebstormProjects/msrv3/db.log
+query end...2015-03-02 11:25:53.220114
+json append start...2015-03-02 11:25:53.220156
+json append end...2015-03-02 11:25:53.247332
+return start...2015-03-02 11:25:53.471209
+>>>...MODULE:srv_cn_get_all()2015-03-02 11:26:12.577609
+query start...2015-03-02 11:26:12.577659
+/Users/hl/WebstormProjects/msrv3/db.log
+query end...2015-03-02 11:26:12.585211
+json append start...2015-03-02 11:26:12.585231
+json append end...2015-03-02 11:26:12.609301
+return start...2015-03-02 11:26:12.765889
+>>>...MODULE:srv_cn_get_all()2015-03-02 11:28:01.372287
+query start...2015-03-02 11:28:01.372330
+/Users/hl/WebstormProjects/msrv3/db.log
+query end...2015-03-02 11:28:01.399957
+json append start...2015-03-02 11:28:01.400008
+json append end...2015-03-02 11:28:01.421848
+return start...2015-03-02 11:28:01.574696
+>>>...MODULE: upload_csv_file_broken()2015-03-03 10:16:24.853432
+POST
+ImmutableMultiDict([('files[]', <FileStorage: '多音字整理1040225.csv' ('text/csv')>)])
+<FileStorage: '多音字整理1040225.csv' ('text/csv')>

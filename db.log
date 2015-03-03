@@ -1,0 +1,1336 @@
+>>>...>>>...MODULE:record_query() 2015-03-02 09:46:03.403262
+DB: cn
+Collection: words_class1
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-03-02 09:47:40.427814
+DB: cn
+Collection: words_class1
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-03-02 10:32:42.317798
+DB: cn
+Collection: words_class1
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-03-02 10:32:46.025208
+DB: cn
+Collection: options_year
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-03-02 10:32:52.710741
+DB: cn
+Collection: words_class1
+Query Content: {'編號': '3'}
+query data OK.
+>>>...>>>...MODULE:record_update() 2015-03-02 10:32:52.716399
+DB: cn
+Collection: words_class1
+Query Content: {'編號': '3'}
+Update Content: {'成語教學': '賠了夫人又折兵\n解釋\n比喻不但沒有占到便宜，反而吃了大虧。\n造句\n不要這麼做，會讓你賠了夫人又折兵的。', '生字': '兵', '字義教學': '1.武器。如：兵器、短兵相接\n2.戰士、軍隊。如：調兵遣將、按兵不動\n3.戰爭。如：兵連禍結、兵荒馬亂\n4.有關軍事或戰爭的事。如：紙上談兵、談笑用兵、兵不厭詐\n5.專指軍隊中的基層成員。如：炮兵、步兵\n6.姓。如：兵先生', '造詞教學2': '1.兵器\n解釋\n武器。\n2.當兵\n解釋\n服兵役。', '部首外筆畫': '5', '部首': '八', '教學圖卡': '不製作', 'jqGrid_id': '3', '年級': '4', '部首注音': '八', '生字注音': '兵', '課次': '第一課 藍色的海洋大軍  ', '造詞教學1': '解釋\n軍隊中的基層成員。\n例句\n大將軍派小兵們輪值守夜，以防敵軍突襲。', '總筆畫': '7', '年度': '106', '造詞教學-造詞': '小兵', '字形辨別': '不製作', '編號': '3', '字音辨別': '不製作'}
+update data OK.
+>>>...>>>...MODULE:record_query() 2015-03-02 10:33:12.320146
+DB: cn
+Collection: words_class1
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-03-02 11:24:00.687395
+DB: cn
+Collection: words_class1
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-03-02 11:25:31.988681
+DB: cn
+Collection: words_class1
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-03-02 11:25:53.207293
+DB: cn
+Collection: words_class1
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-03-02 11:26:12.577739
+DB: cn
+Collection: words_class1
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_query() 2015-03-02 11:28:01.372408
+DB: cn
+Collection: words_class1
+Query Content: {}
+query data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.543018
+DB: cn
+Collection: words_broken
+Write Content: {'字': '一', '編號': '1'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.629561
+DB: cn
+Collection: words_broken
+Write Content: {'字': '上', '編號': '2'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.641297
+DB: cn
+Collection: words_broken
+Write Content: {'字': '不', '編號': '3'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.708806
+DB: cn
+Collection: words_broken
+Write Content: {'字': '中', '編號': '4'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.711719
+DB: cn
+Collection: words_broken
+Write Content: {'字': '乘', '編號': '5'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.758041
+DB: cn
+Collection: words_broken
+Write Content: {'字': '乾', '編號': '6'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.769286
+DB: cn
+Collection: words_broken
+Write Content: {'字': '了', '編號': '7'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.845935
+DB: cn
+Collection: words_broken
+Write Content: {'字': '什', '編號': '8'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.849070
+DB: cn
+Collection: words_broken
+Write Content: {'字': '仇', '編號': '9'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.866217
+DB: cn
+Collection: words_broken
+Write Content: {'字': '任', '編號': '10'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.880903
+DB: cn
+Collection: words_broken
+Write Content: {'字': '伺', '編號': '11'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.883610
+DB: cn
+Collection: words_broken
+Write Content: {'字': '伯', '編號': '12'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.908113
+DB: cn
+Collection: words_broken
+Write Content: {'字': '供', '編號': '13'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.911358
+DB: cn
+Collection: words_broken
+Write Content: {'字': '便', '編號': '14'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.922363
+DB: cn
+Collection: words_broken
+Write Content: {'字': '們', '編號': '15'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.925030
+DB: cn
+Collection: words_broken
+Write Content: {'字': '倔', '編號': '16'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.928035
+DB: cn
+Collection: words_broken
+Write Content: {'字': '倆', '編號': '17'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.953829
+DB: cn
+Collection: words_broken
+Write Content: {'字': '倒', '編號': '18'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.980214
+DB: cn
+Collection: words_broken
+Write Content: {'字': '個', '編號': '19'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.991695
+DB: cn
+Collection: words_broken
+Write Content: {'字': '假', '編號': '20'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.994655
+DB: cn
+Collection: words_broken
+Write Content: {'字': '傍', '編號': '21'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.997145
+DB: cn
+Collection: words_broken
+Write Content: {'字': '兒', '編號': '22'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:25.999858
+DB: cn
+Collection: words_broken
+Write Content: {'字': '公', '編號': '23'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.013744
+DB: cn
+Collection: words_broken
+Write Content: {'字': '冠', '編號': '24'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.016552
+DB: cn
+Collection: words_broken
+Write Content: {'字': '切', '編號': '25'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.026517
+DB: cn
+Collection: words_broken
+Write Content: {'字': '分', '編號': '26'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.061854
+DB: cn
+Collection: words_broken
+Write Content: {'字': '刨', '編號': '27'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.064423
+DB: cn
+Collection: words_broken
+Write Content: {'字': '削', '編號': '28'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.080658
+DB: cn
+Collection: words_broken
+Write Content: {'字': '創', '編號': '29'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.083307
+DB: cn
+Collection: words_broken
+Write Content: {'字': '劃', '編號': '30'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.085717
+DB: cn
+Collection: words_broken
+Write Content: {'字': '勒', '編號': '31'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.088331
+DB: cn
+Collection: words_broken
+Write Content: {'字': '勞', '編號': '32'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.091115
+DB: cn
+Collection: words_broken
+Write Content: {'字': '勝', '編號': '33'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.093626
+DB: cn
+Collection: words_broken
+Write Content: {'字': '勾', '編號': '34'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.096067
+DB: cn
+Collection: words_broken
+Write Content: {'字': '匙', '編號': '35'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.098544
+DB: cn
+Collection: words_broken
+Write Content: {'字': '匹', '編號': '36'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.101032
+DB: cn
+Collection: words_broken
+Write Content: {'字': '區', '編號': '37'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.103868
+DB: cn
+Collection: words_broken
+Write Content: {'字': '卒', '編號': '38'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.106383
+DB: cn
+Collection: words_broken
+Write Content: {'字': '占', '編號': '39'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.108944
+DB: cn
+Collection: words_broken
+Write Content: {'字': '卷', '編號': '40'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.111604
+DB: cn
+Collection: words_broken
+Write Content: {'字': '厭', '編號': '41'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.114918
+DB: cn
+Collection: words_broken
+Write Content: {'字': '參', '編號': '42'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.117607
+DB: cn
+Collection: words_broken
+Write Content: {'字': '叔', '編號': '43'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.120537
+DB: cn
+Collection: words_broken
+Write Content: {'字': '叨', '編號': '44'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.123060
+DB: cn
+Collection: words_broken
+Write Content: {'字': '只', '編號': '45'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.125641
+DB: cn
+Collection: words_broken
+Write Content: {'字': '句', '編號': '46'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.128212
+DB: cn
+Collection: words_broken
+Write Content: {'字': '吐', '編號': '47'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.130757
+DB: cn
+Collection: words_broken
+Write Content: {'字': '吃', '編號': '48'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.133225
+DB: cn
+Collection: words_broken
+Write Content: {'字': '否', '編號': '49'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.136055
+DB: cn
+Collection: words_broken
+Write Content: {'字': '吭', '編號': '50'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.138776
+DB: cn
+Collection: words_broken
+Write Content: {'字': '呀', '編號': '51'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.142421
+DB: cn
+Collection: words_broken
+Write Content: {'字': '呢', '編號': '52'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.144951
+DB: cn
+Collection: words_broken
+Write Content: {'字': '呵', '編號': '53'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.147648
+DB: cn
+Collection: words_broken
+Write Content: {'字': '呱', '編號': '54'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.150129
+DB: cn
+Collection: words_broken
+Write Content: {'字': '和', '編號': '55'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.152717
+DB: cn
+Collection: words_broken
+Write Content: {'字': '咳', '編號': '56'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.155219
+DB: cn
+Collection: words_broken
+Write Content: {'字': '哄', '編號': '57'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.157861
+DB: cn
+Collection: words_broken
+Write Content: {'字': '咽', '編號': '58'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.160587
+DB: cn
+Collection: words_broken
+Write Content: {'字': '咯', '編號': '59'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.163083
+DB: cn
+Collection: words_broken
+Write Content: {'字': '哈', '編號': '60'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.165553
+DB: cn
+Collection: words_broken
+Write Content: {'字': '哥', '編號': '61'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.168309
+DB: cn
+Collection: words_broken
+Write Content: {'字': '哪', '編號': '62'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.180589
+DB: cn
+Collection: words_broken
+Write Content: {'字': '哩', '編號': '63'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.183702
+DB: cn
+Collection: words_broken
+Write Content: {'字': '啞', '編號': '64'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.186223
+DB: cn
+Collection: words_broken
+Write Content: {'字': '啊', '編號': '65'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.188907
+DB: cn
+Collection: words_broken
+Write Content: {'字': '啦', '編號': '66'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.191682
+DB: cn
+Collection: words_broken
+Write Content: {'字': '喪', '編號': '67'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.194407
+DB: cn
+Collection: words_broken
+Write Content: {'字': '喔', '編號': '68'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.197024
+DB: cn
+Collection: words_broken
+Write Content: {'字': '嘔', '編號': '69'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.199739
+DB: cn
+Collection: words_broken
+Write Content: {'字': '嚼', '編號': '70'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.202254
+DB: cn
+Collection: words_broken
+Write Content: {'字': '嚇', '編號': '71'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.204833
+DB: cn
+Collection: words_broken
+Write Content: {'字': '囉', '編號': '72'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.207276
+DB: cn
+Collection: words_broken
+Write Content: {'字': '囤', '編號': '73'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.209807
+DB: cn
+Collection: words_broken
+Write Content: {'字': '圈', '編號': '74'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.212604
+DB: cn
+Collection: words_broken
+Write Content: {'字': '坊', '編號': '75'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.215298
+DB: cn
+Collection: words_broken
+Write Content: {'字': '埋', '編號': '76'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.218067
+DB: cn
+Collection: words_broken
+Write Content: {'字': '埤', '編號': '77'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.232775
+DB: cn
+Collection: words_broken
+Write Content: {'字': '塞', '編號': '78'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.235662
+DB: cn
+Collection: words_broken
+Write Content: {'字': '大', '編號': '79'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.238302
+DB: cn
+Collection: words_broken
+Write Content: {'字': '奇', '編號': '80'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.241152
+DB: cn
+Collection: words_broken
+Write Content: {'字': '奶', '編號': '81'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.243707
+DB: cn
+Collection: words_broken
+Write Content: {'字': '好', '編號': '82'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.246420
+DB: cn
+Collection: words_broken
+Write Content: {'字': '委', '編號': '83'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.248934
+DB: cn
+Collection: words_broken
+Write Content: {'字': '媽', '編號': '84'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.251447
+DB: cn
+Collection: words_broken
+Write Content: {'字': '姐', '編號': '85'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.254005
+DB: cn
+Collection: words_broken
+Write Content: {'字': '妹', '編號': '86'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.256706
+DB: cn
+Collection: words_broken
+Write Content: {'字': '姑', '編號': '87'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.259278
+DB: cn
+Collection: words_broken
+Write Content: {'字': '婆', '編號': '88'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.262342
+DB: cn
+Collection: words_broken
+Write Content: {'字': '娜', '編號': '89'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.265133
+DB: cn
+Collection: words_broken
+Write Content: {'字': '嬸', '編號': '90'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.267641
+DB: cn
+Collection: words_broken
+Write Content: {'字': '子', '編號': '91'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.270192
+DB: cn
+Collection: words_broken
+Write Content: {'字': '宿', '編號': '92'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.314770
+DB: cn
+Collection: words_broken
+Write Content: {'字': '將', '編號': '93'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.317979
+DB: cn
+Collection: words_broken
+Write Content: {'字': '少', '編號': '94'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.322078
+DB: cn
+Collection: words_broken
+Write Content: {'字': '屬', '編號': '95'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.325097
+DB: cn
+Collection: words_broken
+Write Content: {'字': '差', '編號': '96'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.328432
+DB: cn
+Collection: words_broken
+Write Content: {'字': '幾', '編號': '97'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.331267
+DB: cn
+Collection: words_broken
+Write Content: {'字': '度', '編號': '98'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.333697
+DB: cn
+Collection: words_broken
+Write Content: {'字': '弄', '編號': '99'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.350859
+DB: cn
+Collection: words_broken
+Write Content: {'字': '弟', '編號': '100'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.354105
+DB: cn
+Collection: words_broken
+Write Content: {'字': '強', '編號': '101'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.356957
+DB: cn
+Collection: words_broken
+Write Content: {'字': '彈', '編號': '102'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.360250
+DB: cn
+Collection: words_broken
+Write Content: {'字': '疆', '編號': '103'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.363131
+DB: cn
+Collection: words_broken
+Write Content: {'字': '彷', '編號': '104'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.366679
+DB: cn
+Collection: words_broken
+Write Content: {'字': '待', '編號': '105'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.369971
+DB: cn
+Collection: words_broken
+Write Content: {'字': '得', '編號': '106'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.372733
+DB: cn
+Collection: words_broken
+Write Content: {'字': '從', '編號': '107'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.377285
+DB: cn
+Collection: words_broken
+Write Content: {'字': '悶', '編號': '108'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.384040
+DB: cn
+Collection: words_broken
+Write Content: {'字': '惡', '編號': '109'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.386965
+DB: cn
+Collection: words_broken
+Write Content: {'字': '應', '編號': '110'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.391093
+DB: cn
+Collection: words_broken
+Write Content: {'字': '扁', '編號': '111'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.395041
+DB: cn
+Collection: words_broken
+Write Content: {'字': '扇', '編號': '112'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.397469
+DB: cn
+Collection: words_broken
+Write Content: {'字': '扎', '編號': '113'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.413373
+DB: cn
+Collection: words_broken
+Write Content: {'字': '扒', '編號': '114'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.418277
+DB: cn
+Collection: words_broken
+Write Content: {'字': '扛', '編號': '115'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.473345
+DB: cn
+Collection: words_broken
+Write Content: {'字': '抹', '編號': '116'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.476488
+DB: cn
+Collection: words_broken
+Write Content: {'字': '拓', '編號': '117'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.480583
+DB: cn
+Collection: words_broken
+Write Content: {'字': '拗', '編號': '118'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.483800
+DB: cn
+Collection: words_broken
+Write Content: {'字': '挑', '編號': '119'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.496973
+DB: cn
+Collection: words_broken
+Write Content: {'字': '掃', '編號': '120'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.543368
+DB: cn
+Collection: words_broken
+Write Content: {'字': '掙', '編號': '121'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.546820
+DB: cn
+Collection: words_broken
+Write Content: {'字': '撇', '編號': '122'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.550724
+DB: cn
+Collection: words_broken
+Write Content: {'字': '撒', '編號': '123'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.553809
+DB: cn
+Collection: words_broken
+Write Content: {'字': '擔', '編號': '124'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.556912
+DB: cn
+Collection: words_broken
+Write Content: {'字': '教', '編號': '125'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.577807
+DB: cn
+Collection: words_broken
+Write Content: {'字': '散', '編號': '126'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.582381
+DB: cn
+Collection: words_broken
+Write Content: {'字': '數', '編號': '127'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.585252
+DB: cn
+Collection: words_broken
+Write Content: {'字': '文', '編號': '128'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.603111
+DB: cn
+Collection: words_broken
+Write Content: {'字': '旋', '編號': '129'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.628653
+DB: cn
+Collection: words_broken
+Write Content: {'字': '星', '編號': '130'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.631271
+DB: cn
+Collection: words_broken
+Write Content: {'字': '晃', '編號': '131'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.667759
+DB: cn
+Collection: words_broken
+Write Content: {'字': '暈', '編號': '132'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.671210
+DB: cn
+Collection: words_broken
+Write Content: {'字': '暴', '編號': '133'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.686054
+DB: cn
+Collection: words_broken
+Write Content: {'字': '曲', '編號': '134'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.688996
+DB: cn
+Collection: words_broken
+Write Content: {'字': '更', '編號': '135'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.691718
+DB: cn
+Collection: words_broken
+Write Content: {'字': '曾', '編號': '136'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.694089
+DB: cn
+Collection: words_broken
+Write Content: {'字': '會', '編號': '137'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.719611
+DB: cn
+Collection: words_broken
+Write Content: {'字': '朝', '編號': '138'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.722720
+DB: cn
+Collection: words_broken
+Write Content: {'字': '期', '編號': '139'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.725705
+DB: cn
+Collection: words_broken
+Write Content: {'字': '枕', '編號': '140'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.737508
+DB: cn
+Collection: words_broken
+Write Content: {'字': '校', '編號': '141'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.740398
+DB: cn
+Collection: words_broken
+Write Content: {'字': '樂', '編號': '142'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.744373
+DB: cn
+Collection: words_broken
+Write Content: {'字': '橫', '編號': '143'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.747149
+DB: cn
+Collection: words_broken
+Write Content: {'字': '比', '編號': '144'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.749783
+DB: cn
+Collection: words_broken
+Write Content: {'字': '泥', '編號': '145'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.752325
+DB: cn
+Collection: words_broken
+Write Content: {'字': '法', '編號': '146'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.754965
+DB: cn
+Collection: words_broken
+Write Content: {'字': '沮', '編號': '147'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.757357
+DB: cn
+Collection: words_broken
+Write Content: {'字': '泡', '編號': '148'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.760518
+DB: cn
+Collection: words_broken
+Write Content: {'字': '渾', '編號': '149'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.763251
+DB: cn
+Collection: words_broken
+Write Content: {'字': '漲', '編號': '150'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.765863
+DB: cn
+Collection: words_broken
+Write Content: {'字': '漂', '編號': '151'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.768477
+DB: cn
+Collection: words_broken
+Write Content: {'字': '澎', '編號': '152'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.771256
+DB: cn
+Collection: words_broken
+Write Content: {'字': '炮', '編號': '153'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.774220
+DB: cn
+Collection: words_broken
+Write Content: {'字': '炸', '編號': '154'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.777083
+DB: cn
+Collection: words_broken
+Write Content: {'字': '為', '編號': '155'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.779528
+DB: cn
+Collection: words_broken
+Write Content: {'字': '煞', '編號': '156'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.782555
+DB: cn
+Collection: words_broken
+Write Content: {'字': '燥', '編號': '157'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.785109
+DB: cn
+Collection: words_broken
+Write Content: {'字': '爪', '編號': '158'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.787591
+DB: cn
+Collection: words_broken
+Write Content: {'字': '父', '編號': '159'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.790497
+DB: cn
+Collection: words_broken
+Write Content: {'字': '爸', '編號': '160'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.793285
+DB: cn
+Collection: words_broken
+Write Content: {'字': '爺', '編號': '161'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.795989
+DB: cn
+Collection: words_broken
+Write Content: {'字': '率', '編號': '162'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.798463
+DB: cn
+Collection: words_broken
+Write Content: {'字': '甚', '編號': '163'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.801200
+DB: cn
+Collection: words_broken
+Write Content: {'字': '畜', '編號': '164'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.804204
+DB: cn
+Collection: words_broken
+Write Content: {'字': '當', '編號': '165'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.807219
+DB: cn
+Collection: words_broken
+Write Content: {'字': '的', '編號': '166'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.824322
+DB: cn
+Collection: words_broken
+Write Content: {'字': '盛', '編號': '167'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.828715
+DB: cn
+Collection: words_broken
+Write Content: {'字': '監', '編號': '168'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.831084
+DB: cn
+Collection: words_broken
+Write Content: {'字': '省', '編號': '169'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.833576
+DB: cn
+Collection: words_broken
+Write Content: {'字': '看', '編號': '170'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.836069
+DB: cn
+Collection: words_broken
+Write Content: {'字': '相', '編號': '171'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.838777
+DB: cn
+Collection: words_broken
+Write Content: {'字': '矇', '編號': '172'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.841581
+DB: cn
+Collection: words_broken
+Write Content: {'字': '磨', '編號': '173'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.844271
+DB: cn
+Collection: words_broken
+Write Content: {'字': '禁', '編號': '174'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.846810
+DB: cn
+Collection: words_broken
+Write Content: {'字': '禪', '編號': '175'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.849711
+DB: cn
+Collection: words_broken
+Write Content: {'字': '種', '編號': '176'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.852234
+DB: cn
+Collection: words_broken
+Write Content: {'字': '稱', '編號': '177'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.854807
+DB: cn
+Collection: words_broken
+Write Content: {'字': '空', '編號': '178'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.857245
+DB: cn
+Collection: words_broken
+Write Content: {'字': '答', '編號': '179'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.859772
+DB: cn
+Collection: words_broken
+Write Content: {'字': '簸', '編號': '180'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.862185
+DB: cn
+Collection: words_broken
+Write Content: {'字': '紅', '編號': '181'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.864830
+DB: cn
+Collection: words_broken
+Write Content: {'字': '累', '編號': '182'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.867481
+DB: cn
+Collection: words_broken
+Write Content: {'字': '結', '編號': '183'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.870395
+DB: cn
+Collection: words_broken
+Write Content: {'字': '給', '編號': '184'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.872879
+DB: cn
+Collection: words_broken
+Write Content: {'字': '繃', '編號': '185'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.875303
+DB: cn
+Collection: words_broken
+Write Content: {'字': '縫', '編號': '186'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.877908
+DB: cn
+Collection: words_broken
+Write Content: {'字': '署', '編號': '187'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.880307
+DB: cn
+Collection: words_broken
+Write Content: {'字': '罷', '編號': '188'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.882893
+DB: cn
+Collection: words_broken
+Write Content: {'字': '翹', '編號': '189'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.885605
+DB: cn
+Collection: words_broken
+Write Content: {'字': '聽', '編號': '190'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.888222
+DB: cn
+Collection: words_broken
+Write Content: {'字': '背', '編號': '191'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.890770
+DB: cn
+Collection: words_broken
+Write Content: {'字': '膀', '編號': '192'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.893295
+DB: cn
+Collection: words_broken
+Write Content: {'字': '臭', '編號': '193'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.896277
+DB: cn
+Collection: words_broken
+Write Content: {'字': '舅', '編號': '194'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.898996
+DB: cn
+Collection: words_broken
+Write Content: {'字': '與', '編號': '195'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.901804
+DB: cn
+Collection: words_broken
+Write Content: {'字': '興', '編號': '196'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.904153
+DB: cn
+Collection: words_broken
+Write Content: {'字': '茄', '編號': '197'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.906673
+DB: cn
+Collection: words_broken
+Write Content: {'字': '荷', '編號': '198'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.909135
+DB: cn
+Collection: words_broken
+Write Content: {'字': '華', '編號': '199'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.911729
+DB: cn
+Collection: words_broken
+Write Content: {'字': '菲', '編號': '200'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.914146
+DB: cn
+Collection: words_broken
+Write Content: {'字': '著', '編號': '201'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.916530
+DB: cn
+Collection: words_broken
+Write Content: {'字': '落', '編號': '202'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.919349
+DB: cn
+Collection: words_broken
+Write Content: {'字': '葛', '編號': '203'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.921884
+DB: cn
+Collection: words_broken
+Write Content: {'字': '薄', '編號': '204'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.924376
+DB: cn
+Collection: words_broken
+Write Content: {'字': '藏', '編號': '205'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.926998
+DB: cn
+Collection: words_broken
+Write Content: {'字': '處', '編號': '206'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.929628
+DB: cn
+Collection: words_broken
+Write Content: {'字': '號', '編號': '207'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.932198
+DB: cn
+Collection: words_broken
+Write Content: {'字': '蚵', '編號': '208'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.935092
+DB: cn
+Collection: words_broken
+Write Content: {'字': '蛤', '編號': '209'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.937518
+DB: cn
+Collection: words_broken
+Write Content: {'字': '行', '編號': '210'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.940013
+DB: cn
+Collection: words_broken
+Write Content: {'字': '衝', '編號': '211'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.942467
+DB: cn
+Collection: words_broken
+Write Content: {'字': '要', '編號': '212'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.945127
+DB: cn
+Collection: words_broken
+Write Content: {'字': '親', '編號': '213'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.947582
+DB: cn
+Collection: words_broken
+Write Content: {'字': '覺', '編號': '214'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.950429
+DB: cn
+Collection: words_broken
+Write Content: {'字': '觀', '編號': '215'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.952900
+DB: cn
+Collection: words_broken
+Write Content: {'字': '角', '編號': '216'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.955351
+DB: cn
+Collection: words_broken
+Write Content: {'字': '解', '編號': '217'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.958256
+DB: cn
+Collection: words_broken
+Write Content: {'字': '說', '編號': '218'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.960863
+DB: cn
+Collection: words_broken
+Write Content: {'字': '調', '編號': '219'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.963453
+DB: cn
+Collection: words_broken
+Write Content: {'字': '論', '編號': '220'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.966263
+DB: cn
+Collection: words_broken
+Write Content: {'字': '識', '編號': '221'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.968775
+DB: cn
+Collection: words_broken
+Write Content: {'字': '讀', '編號': '222'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.971332
+DB: cn
+Collection: words_broken
+Write Content: {'字': '賈', '編號': '223'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.974666
+DB: cn
+Collection: words_broken
+Write Content: {'字': '質', '編號': '224'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.977173
+DB: cn
+Collection: words_broken
+Write Content: {'字': '軋', '編號': '225'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.979915
+DB: cn
+Collection: words_broken
+Write Content: {'字': '載', '編號': '226'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.982534
+DB: cn
+Collection: words_broken
+Write Content: {'字': '轉', '編號': '227'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.985139
+DB: cn
+Collection: words_broken
+Write Content: {'字': '轍', '編號': '228'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.987698
+DB: cn
+Collection: words_broken
+Write Content: {'字': '逮', '編號': '229'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.990533
+DB: cn
+Collection: words_broken
+Write Content: {'字': '遺', '編號': '230'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.993084
+DB: cn
+Collection: words_broken
+Write Content: {'字': '還', '編號': '231'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.995506
+DB: cn
+Collection: words_broken
+Write Content: {'字': '那', '編號': '232'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:26.998292
+DB: cn
+Collection: words_broken
+Write Content: {'字': '都', '編號': '233'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.000855
+DB: cn
+Collection: words_broken
+Write Content: {'字': '重', '編號': '234'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.003587
+DB: cn
+Collection: words_broken
+Write Content: {'字': '量', '編號': '235'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.006342
+DB: cn
+Collection: words_broken
+Write Content: {'字': '釘', '編號': '236'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.008890
+DB: cn
+Collection: words_broken
+Write Content: {'字': '鋪', '編號': '237'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.011442
+DB: cn
+Collection: words_broken
+Write Content: {'字': '鑽', '編號': '238'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.013877
+DB: cn
+Collection: words_broken
+Write Content: {'字': '長', '編號': '239'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.016340
+DB: cn
+Collection: words_broken
+Write Content: {'字': '間', '編號': '240'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.019399
+DB: cn
+Collection: words_broken
+Write Content: {'字': '闕', '編號': '241'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.022205
+DB: cn
+Collection: words_broken
+Write Content: {'字': '阿', '編號': '242'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.024607
+DB: cn
+Collection: words_broken
+Write Content: {'字': '降', '編號': '243'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.027241
+DB: cn
+Collection: words_broken
+Write Content: {'字': '陸', '編號': '244'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.029828
+DB: cn
+Collection: words_broken
+Write Content: {'字': '難', '編號': '245'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.032617
+DB: cn
+Collection: words_broken
+Write Content: {'字': '露', '編號': '246'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.035124
+DB: cn
+Collection: words_broken
+Write Content: {'字': '靦', '編號': '247'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.037503
+DB: cn
+Collection: words_broken
+Write Content: {'字': '頭', '編號': '248'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.040204
+DB: cn
+Collection: words_broken
+Write Content: {'字': '養', '編號': '249'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.042883
+DB: cn
+Collection: words_broken
+Write Content: {'字': '骨', '編號': '250'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.045310
+DB: cn
+Collection: words_broken
+Write Content: {'字': '鮮', '編號': '251'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.054199
+DB: cn
+Collection: words_broken
+Write Content: {'字': '鵠', '編號': '252'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.056899
+DB: cn
+Collection: words_broken
+Write Content: {'字': '麗', '編號': '253'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.059469
+DB: cn
+Collection: words_broken
+Write Content: {'字': '麼', '編號': '254'}
+save data OK.
+>>>...>>>...MODULE:record_save() 2015-03-03 10:16:27.062370
+DB: cn
+Collection: words_broken
+Write Content: {'字': '龜', '編號': '255'}
+save data OK.

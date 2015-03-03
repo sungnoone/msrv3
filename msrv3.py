@@ -9,7 +9,7 @@ import datetime
 import conf
 import simplejson
 import csv
-import chardet
+import dboperate
 
 
 APP_PATH = os.path.dirname(os.path.realpath(__file__))
@@ -43,74 +43,12 @@ def connect_srv():
     return "嘗試連接服務成功！！"
 
 
-#=============================== cn words api =========================================
+##=============================== cn words api =========================================
 
-# get all data (response to jqgrid)
-@app.route('/srv/cn/get/all/', methods=["GET","POST"])
-@cross_origin()
-def srv_cn_get_all():
-    log = open(LOG_FILE_FULL_PATH, 'a+')
-    log.write(">>>...MODULE:srv_cn_get_all()"+str(datetime.datetime.now())+"\r\n")
-    return_json = {"rows":[]}
-    return_json["rows"].clear()
-    try:
-        log.write("query start..."+str(datetime.datetime.now())+"\r\n")
-        find_result = record_query(conf.DB_CN, conf.COLLECTION_CN_WORDS_CLASS1, {})
-        log.write("query end..."+str(datetime.datetime.now())+"\r\n")
-        #s = ""
-        log.write("json append start..."+str(datetime.datetime.now())+"\r\n")
-        for post in find_result:
-            return_json["rows"].append(post)
-        log.write("json append end..."+str(datetime.datetime.now())+"\r\n")
-        try:
-            return_result = bson.json_util.dumps(return_json, ensure_ascii="false")
-            log.write("return start..."+str(datetime.datetime.now())+"\r\n")
-            log.close()
-            return return_result
-        except Exception as e:
-            log.write("jsonify error: "+str(e)+"\r\n")
-            log.close()
-            return jsonify({"rows":[]})
-    except Exception as e:
-        log.write("Query db error! " + str(e) + "\r\n")
-        log.close()
-        return str("01x001")
+##=========== for vsto client ==============
 
 
-# get all data (response to ajax)
-@app.route('/srv/cn/get/type1/', methods=["GET","POST"])
-@cross_origin()
-def srv_cn_get_type1():
-    log = open(LOG_FILE_FULL_PATH, 'a+')
-    log.write(">>>...MODULE:srv_cn_get_type1()"+str(datetime.datetime.now())+"\r\n")
-    #return_json = {"items":[]}
-    return_json = {"items":[]}
-    return_json["items"].clear()
-    try:
-        log.write("query start..."+str(datetime.datetime.now())+"\r\n")
-        find_result = record_query(conf.DB_CN, conf.COLLECTION_CN_WORDS_CLASS1, {})
-        log.write("query end..."+str(datetime.datetime.now())+"\r\n")
-        #s = ""
-        log.write("json append start..."+str(datetime.datetime.now())+"\r\n")
-        for post in find_result:
-            return_json["items"].append(post)
-        log.write("json append end..."+str(datetime.datetime.now())+"\r\n")
-        try:
-            return_result = bson.json_util.dumps(return_json, ensure_ascii="false")
-            log.write("return start..."+str(datetime.datetime.now())+"\r\n")
-            log.close()
-            return return_result
-        except Exception as e:
-            log.write("jsonify error: "+str(e)+"\r\n")
-            log.close()
-            return jsonify({"rows":[]})
-    except Exception as e:
-        log.write("Query db error! " + str(e) + "\r\n")
-        log.close()
-        return str("01x001")
-
-
-# post one record
+## post one record (testing for vsto client)
 @app.route('/srv/cn/insert/one/', methods=["POST"])
 @cross_origin()
 def srv_cn_insert_one():
@@ -141,9 +79,9 @@ def srv_cn_insert_one():
 
     log.write("before find result\r\n")
     #if exist then update it, if not exist then add
-    find_result = record_query(conf.DB_CN, conf.COLLECTION_CN_WORDS, {conf.CN_WORDS_ID:cn_words_id})
+    find_result = dboperate.record_query(conf.DB_CN, conf.COLLECTION_CN_WORDS, {conf.CN_WORDS_ID:cn_words_id}, LOG_DB_OPERATE)
     if find_result.count() == 0:
-        insert_result = record_save(conf.DB_CN, conf.COLLECTION_CN_WORDS, dataDict)
+        insert_result = dboperate.record_save(conf.DB_CN, conf.COLLECTION_CN_WORDS, dataDict, LOG_DB_OPERATE)
         if insert_result == False:
             log.write("insert fail: " + str(insert_result) + "\r\n")
             log.close()
@@ -154,7 +92,133 @@ def srv_cn_insert_one():
             return "01x000"
     else:
         update_json = {conf.CN_WORDS_CONTENT:cn_words_content}
-        update_result = record_update(conf.DB_CN, conf.COLLECTION_CN_WORDS, {conf.CN_WORDS_ID:cn_words_id}, update_json)
+        update_result = dboperate.record_update(conf.DB_CN, conf.COLLECTION_CN_WORDS, {conf.CN_WORDS_ID:cn_words_id}, update_json, LOG_DB_OPERATE)
+        if update_result == False:
+            log.write("update fail: " + str(update_result) + "\r\n")
+            log.close()
+            return "01x004"
+        else:
+            log.write("update OK: " + str(update_result) + "\r\n")
+            log.close()
+            return "02x000"
+
+
+##=========== for web client client ==============
+
+# get all data (response to jqgrid, for web client)
+@app.route('/srv/cn/get/all/', methods=["GET","POST"])
+@cross_origin()
+def srv_cn_get_all():
+    log = open(LOG_FILE_FULL_PATH, 'a+')
+    log.write(">>>...MODULE:srv_cn_get_all()"+str(datetime.datetime.now())+"\r\n")
+    return_json = {"rows":[]}
+    return_json["rows"].clear()
+    try:
+        log.write("query start..."+str(datetime.datetime.now())+"\r\n")
+        log.write(LOG_DB_OPERATE+"\r\n")
+        find_result = dboperate.record_query(conf.DB_CN, conf.COLLECTION_CN_WORDS_CLASS1, {}, LOG_DB_OPERATE)
+        log.write("query end..."+str(datetime.datetime.now())+"\r\n")
+        #s = ""
+        log.write("json append start..."+str(datetime.datetime.now())+"\r\n")
+        for post in find_result:
+            return_json["rows"].append(post)
+        log.write("json append end..."+str(datetime.datetime.now())+"\r\n")
+        try:
+            return_result = bson.json_util.dumps(return_json, ensure_ascii="false")
+            log.write("return start..."+str(datetime.datetime.now())+"\r\n")
+            log.close()
+            return return_result
+        except Exception as e:
+            log.write("jsonify error: "+str(e)+"\r\n")
+            log.close()
+            return jsonify({"rows":[]})
+    except Exception as e:
+        log.write("Query db error! " + str(e) + "\r\n")
+        log.close()
+        return str("02x001")
+
+
+# get all data (response to ajax)
+@app.route('/srv/cn/get/type1/', methods=["GET","POST"])
+@cross_origin()
+def srv_cn_get_type1():
+    log = open(LOG_FILE_FULL_PATH, 'a+')
+    log.write(">>>...MODULE:srv_cn_get_type1()"+str(datetime.datetime.now())+"\r\n")
+    #return_json = {"items":[]}
+    return_json = {"items":[]}
+    return_json["items"].clear()
+    try:
+        log.write("query start..."+str(datetime.datetime.now())+"\r\n")
+        find_result = dboperate.record_query(conf.DB_CN, conf.COLLECTION_CN_WORDS_CLASS1, {}, LOG_DB_OPERATE)
+        log.write("query end..."+str(datetime.datetime.now())+"\r\n")
+        #s = ""
+        log.write("json append start..."+str(datetime.datetime.now())+"\r\n")
+        for post in find_result:
+            return_json["items"].append(post)
+        log.write("json append end..."+str(datetime.datetime.now())+"\r\n")
+        try:
+            return_result = bson.json_util.dumps(return_json, ensure_ascii="false")
+            log.write("return start..."+str(datetime.datetime.now())+"\r\n")
+            log.close()
+            return return_result
+        except Exception as e:
+            log.write("jsonify error: "+str(e)+"\r\n")
+            log.close()
+            return jsonify({"rows":[]})
+    except Exception as e:
+        log.write("Query db error! " + str(e) + "\r\n")
+        log.close()
+        return str("02x001")
+
+
+## post one record to words_class1, request json (for web client)
+@app.route('/srv/cn/insert/single/', methods=["POST"])
+@cross_origin()
+def srv_cn_insert_single():
+    log = open(LOG_FILE_FULL_PATH, 'a+')
+    log.write(">>>...MODULE:srv_cn_insert_single()"+str(datetime.datetime.now())+"\r\n")
+    try:
+        request_data = request.data.decode("utf-8")
+        #log.write(str(request_data)+"\r\n")
+        dataDict = json.loads(request_data)
+        log.write("request data content: "+str(request_data)+"\r\n")
+        log.write("request data dict: "+str(dataDict)+"\r\n")
+    except Exception as e:
+        log.write("request data fail: "+str(e)+"\r\n")
+        log.close()
+        return "02x002"
+
+    cn_words_class1_id = ""
+    try:
+        for key, value in dataDict.items():
+            log.write(key + "\r\n")
+            if key == conf.CN_WORDS_CLASS1_ID:
+                cn_words_class1_id = value
+            #elif key == conf.CN_WORDS_CLASS1_NAME:
+            #    cn_words_class1_content = value
+
+    except Exception as e:
+        log.write("parse request json data error: " + str(e) + "\r\n")
+        log.close()
+        return "01x000"
+
+    log.write("before find result\r\n")
+    #if exist then update it, if not exist then add
+    find_result = dboperate.record_query(conf.DB_CN, conf.COLLECTION_CN_WORDS_CLASS1, {conf.CN_WORDS_CLASS1_ID:cn_words_class1_id}, LOG_DB_OPERATE)
+    if find_result.count() == 0:
+        #return "insert"
+        insert_result = dboperate.record_save(conf.DB_CN, conf.COLLECTION_CN_WORDS_CLASS1, dataDict, LOG_DB_OPERATE)
+        if insert_result == False:
+            log.write("insert fail: " + str(insert_result) + "\r\n")
+            log.close()
+            return "01x002"
+        else:
+            log.write("insert OK: " + str(insert_result) + "\r\n")
+            log.close()
+            return "01x000"
+    else:
+        #return "update"
+        update_result = dboperate.record_update(conf.DB_CN, conf.COLLECTION_CN_WORDS_CLASS1, {conf.CN_WORDS_CLASS1_ID:cn_words_class1_id}, dataDict, LOG_DB_OPERATE)
         if update_result == False:
             log.write("update fail: " + str(update_result) + "\r\n")
             log.close()
@@ -165,15 +229,36 @@ def srv_cn_insert_one():
             return "01x000"
 
 
-##year option api
-@app.route('/srv/cn/oprions/year/', methods=["GET","POST"])
+##jqgrid del record request (for web client)
+@app.route('/srv/cn/del/single/', methods=["GET","POST"])
+@cross_origin()
+def srv_cn_del_single():
+    log = open(LOG_FILE_FULL_PATH, 'a+')
+    log.write(">>>...MODULE:srv_cn_del_single()"+str(datetime.datetime.now())+"\r\n")
+    try:
+        request_data = request.data.decode("utf-8")
+        log.write(str(request_data)+"\r\n")
+        #dataDict = json.loads(request_data)
+        log.write("request data content: "+str(request_data)+"\r\n")
+        #log.write("request data dict: "+str(dataDict)+"\r\n")
+        return "01x000"
+
+        log.close()
+    except Exception as e:
+        log.write("request data fail: "+str(e)+"\r\n")
+        log.close()
+        return "02x002"
+
+
+##year option api (for web client)
+@app.route('/srv/cn/options/year/', methods=["GET","POST"])
 @cross_origin()
 def srv_cn_options_year():
     log = open(LOG_FILE_FULL_PATH, 'a+')
     log.write(">>>...MODULE:srv_cn_options_year()"+str(datetime.datetime.now())+"\r\n")
     return_json = []
     return_json.clear()
-    find_result = record_query(conf.DB_CN, conf.COLLECTION_CN_OPTIONS_YEAR, {})
+    find_result = dboperate.record_query(conf.DB_CN, conf.COLLECTION_CN_OPTIONS_YEAR, {}, LOG_DB_OPERATE)
     for post in find_result:
         return_json.append(post)
     try:
@@ -186,9 +271,9 @@ def srv_cn_options_year():
         return return_result
 
 
-#=============================== cn upload file =========================================
+##=============================== cn upload file =========================================
 
-#file extension filter
+##file extension filter
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1] in ALLOWED_EXTENSIONS
@@ -227,7 +312,7 @@ def allowed_csv_file(filename):
 
 
 #upload csv file service
-@app.route('/uploads/csv/', methods=['GET', 'POST'])
+@app.route('/uploads/csv', methods=['GET', 'POST'])
 @cross_origin()
 def upload_csv_file():
     log = open(LOG_FILE_FULL_PATH, 'a+')
@@ -259,7 +344,7 @@ def upload_csv_file():
         return "uploads csv service..."
 
 
-#parse csv
+#parse csv records into db
 def parse_csv(filename):
     log = open(LOG_SUB_FUNCTION_PATH, 'a+')
     log.write(">>>...MODULE:parse_csv()"+str(datetime.datetime.now())+"\r\n")
@@ -272,7 +357,7 @@ def parse_csv(filename):
             ##every row
             for row in csv_reader:
                 json_dump = json.dumps(row, ensure_ascii=False)
-                save_result = record_save(conf.DB_CN, conf.COLLECTION_CN_WORDS_CLASS1, eval(json_dump))
+                save_result = dboperate.record_save(conf.DB_CN, conf.COLLECTION_CN_WORDS_CLASS1, eval(json_dump), LOG_DB_OPERATE)
                 #log.write(row["編號"]+" save into db "+str(save_result)+"\r\n")
         log.close()
     except Exception as e:
@@ -280,105 +365,67 @@ def parse_csv(filename):
         log.close()
 
 
-#=============================== common function =========================================
+#upload broken phonetic csv file service
+@app.route('/uploads/csv/broken', methods=['GET', 'POST'])
+@cross_origin()
+def upload_csv_file_broken():
+    log = open(LOG_FILE_FULL_PATH, 'a+')
+    log.write(">>>...MODULE: upload_csv_file_broken()"+str(datetime.datetime.now())+"\r\n")
+    if request.method == 'POST':
+        log.write("POST"+"\r\n")
+        log.write(str(request.files)+"\r\n")
+        files = request.files["files[]"]
+        log.write(str(files)+"\r\n")
 
+        if files and allowed_csv_file(files.filename):
+            filename = utils.secure_filename(files.filename)
+            files.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+            log.close()
+            parse_csv_broken(filename)
 
-#query record
-def record_query(use_db, use_collection, json_content):
-    log = open(LOG_DB_OPERATE, 'a+')
-    log.write(">>>...>>>...MODULE:record_query() "+str(datetime.datetime.now())+"\r\n")
-
-    log.write("DB: "+str(use_db)+"\r\n")
-    log.write("Collection: "+str(use_collection)+"\r\n")
-    log.write("Query Content: "+str(json_content)+"\r\n")
-
-    if not isinstance(json_content, dict):
-        log.write("Query content not JSON object\r\n")
+            return simplejson.dumps({"files":[
+                {"name":filename,"error":"00x000"}
+            ]})
+        else:
+            log.close()
+            return simplejson.dumps({"files":[
+                {"name":"error","error":"00x001"}
+            ]})
+            #return simplejson.dumps({"status":"00x001"})
+    else:
+        log.write("GET"+"\r\n")
         log.close()
-        return False
+        return "uploads csv service..."
 
+
+#parse csv records into db -- broken phonetic
+def parse_csv_broken(filename):
+    log = open(LOG_SUB_FUNCTION_PATH, 'a+')
+    log.write(">>>...MODULE:parse_csv_broken()"+str(datetime.datetime.now())+"\r\n")
+    log.write(filename+"\r\n")
     try:
-        client = MongoClient(conf.DB_IP, conf.DB_PORT)
-        db = client[use_db]
-        collection = db[use_collection]
-        find_result = collection.find(json_content)
-        log.write("query data OK.\r\n")
-        client.close()
+        with open(UPLOAD_FOLDER+"/"+filename, 'rt', encoding="utf-8-sig") as csvfile:
+            csv_reader = csv.DictReader(csvfile,dialect="excel")
+            for row in csv_reader:
+                json_dump = json.dumps(row, ensure_ascii=False)
+                save_result = dboperate.record_save(conf.DB_CN, conf.COLLECTION_CN_WORDS_BROKEN, eval(json_dump), LOG_DB_OPERATE)
         log.close()
-        return find_result
     except Exception as e:
-        log.write("query data error: "+str(e)+"\r\n")
+        log.write(str(e)+"\r\n")
         log.close()
-        return False
 
 
-#Save record
-def record_save(use_db, use_collection, json_content):
-    log = open(LOG_DB_OPERATE, 'a+')
-    log.write(">>>...>>>...MODULE:record_save() "+str(datetime.datetime.now())+"\r\n")
-
-    log.write("DB: "+str(use_db)+"\r\n")
-    log.write("Collection: "+str(use_collection)+"\r\n")
-    log.write("Write Content: "+str(json_content)+"\r\n")
-
-    if not isinstance(json_content, dict):
-        log.write("Write content not JSON object\r\n")
-        log.close()
-        return False
-
-    try:
-        client = MongoClient(conf.DB_IP, conf.DB_PORT)
-        db = client[use_db]
-        collection = db[use_collection]
-        record_id = collection.insert(json_content)
-        log.write("save data OK.\r\n")
-        client.close()
-        log.close()
-        return record_id
-    except Exception as e:
-        log.write("save data error: "+str(e)+"\r\n")
-        log.close()
-        return False
+#=============================== dynamic columns =========================================
 
 
-#update record(if query not exist, add)
-def record_update(use_db, use_collection, query_json, update_json):
-    log = open(LOG_DB_OPERATE, 'a+')
-    log.write(">>>...>>>...MODULE:record_update() "+str(datetime.datetime.now())+"\r\n")
+#upload csv file service
+@app.route('/grid/col/names', methods=['GET'])
+@cross_origin()
+def grid_col_names():
+    col_names = ['Edit Actions','編號','年度','年級','課次','生字','生字注音','部首','部首注音','總筆畫','部首外筆畫','字義教學','造詞教學-造詞','造詞教學1','造詞教學2','成語教學','字形辨別','字音辨別','教學圖卡']
+    col_model = [{ 'name':"編號", 'index':'編號', 'sorttype':"int", 'width':20,'editable':'true','editoptions':'{readonly:"readonly"}'}]
 
-    log.write("DB: "+str(use_db)+"\r\n")
-    log.write("Collection: "+str(use_collection)+"\r\n")
-    log.write("Query Content: "+str(query_json)+"\r\n")
-    log.write("Update Content: "+str(update_json)+"\r\n")
-
-    if not isinstance(query_json, dict):
-        log.write("query not JSON object\r\n")
-        log.close()
-        return False
-
-    if not isinstance(update_json, dict):
-        log.write("update not JSON object\r\n")
-        log.close()
-        return False
-
-    try:
-        client = MongoClient(conf.DB_IP, conf.DB_PORT)
-        db = client[use_db]
-        collection = db[use_collection]
-        update_result = collection.update(query_json, {"$set": update_json}, upsert=True, multi=True)
-        log.write("update data OK.\r\n")
-        client.close()
-        log.close()
-        return update_result
-    except Exception as e:
-        log.write("save data error: "+str(e)+"\r\n")
-        log.close()
-        return False
-
-
-#delete record
-def record_delete():
-    return True
+    return jsonify(col_names=col_names, col_model=col_model)
 
 
 #========================================================================
