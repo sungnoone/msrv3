@@ -132,3 +132,32 @@ def record_delete(use_db, use_collection, query_json, log_file_path):
         log.write("Remove data error: "+str(e)+"\r\n")
         log.close()
         return False
+
+
+#query field max value record
+def record_query_field_value_max(use_db, use_collection, field_name, log_file_path):
+    log = open(log_file_path, 'a+')
+    log.write(">>>...>>>...MODULE:record_query_field_value_max() "+str(datetime.datetime.now())+"\r\n")
+
+    log.write("DB: "+str(use_db)+"\r\n")
+    log.write("Collection: "+str(use_collection)+"\r\n")
+    log.write("Query Content: "+str(field_name)+"\r\n")
+
+    if (field_name is None) or (field_name == ""):
+        log.write("field name empty!!\r\n")
+        log.close()
+        return False
+
+    try:
+        client = MongoClient(conf.DB_IP, conf.DB_PORT)
+        db = client[use_db]
+        collection = db[use_collection]
+        find_result = collection.find_one(sort=[(field_name,-1)])
+        log.write("query data OK.\r\n")
+        client.close()
+        log.close()
+        return find_result[field_name]
+    except Exception as e:
+        log.write("query data error: "+str(e)+"\r\n")
+        log.close()
+        return False

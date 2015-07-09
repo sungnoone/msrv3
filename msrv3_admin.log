@@ -1,0 +1,147 @@
+>>>...>>>...MODULE:record_query() 2015-05-28 14:09:48.432118
+DB: msrv3
+Collection: users
+Query Content: {'eid': 'e00277'}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-28 14:09:48.432043
+json append end...{'apps': [{'app': 'admin_account_add'}, {'app': 'admin_account_query'}], '_id': ObjectId('55667e4dcaa1115d881e1c03'), 'state': 0, 'eid': 'e00277', 'description': '', 'name': 'wenjen sung', 'groups': [{'group': 'admins'}], 'id': 1}
+>>>...>>>...MODULE:record_query() 2015-05-28 15:09:24.833573
+DB: msrv3
+Collection: users
+Query Content: {'eid': 'e00277'}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-28 15:09:24.833493
+>>>...>>>...MODULE:record_query() 2015-05-28 15:47:11.325374
+DB: msrv3
+Collection: users
+Query Content: {'eid': 'e00277'}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-28 15:47:11.325264
+post: {'description': '', 'apps': [{'app': 'admin_account_add'}, {'app': 'admin_account_query'}], 'groups': [{'group': 'admins'}], 'state': 0, '_id': ObjectId('55667e4dcaa1115d881e1c03'), 'id': 1, 'name': 'wenjen sung', 'eid': 'e00277'}
+>>>...>>>...MODULE:record_query() 2015-05-28 15:47:23.283149
+DB: msrv3
+Collection: users
+Query Content: {'eid': 'e00277'}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-28 15:47:23.283078
+post: {'id': 1, 'state': 0, 'apps': [{'app': 'admin_account_add'}, {'app': 'admin_account_query'}], 'eid': 'e00277', 'groups': [{'group': 'admins'}], 'description': '', '_id': ObjectId('55667e4dcaa1115d881e1c03'), 'name': 'wenjen sung'}
+>>>...>>>...MODULE:record_query() 2015-05-28 15:47:43.010162
+DB: msrv3
+Collection: users
+Query Content: {'eid': 'e00277'}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-28 15:47:43.010090
+post: {'eid': 'e00277', 'apps': [{'app': 'admin_account_add'}, {'app': 'admin_account_query'}], 'id': 1, 'state': 0, 'description': '', '_id': ObjectId('55667e4dcaa1115d881e1c03'), 'name': 'wenjen sung', 'groups': [{'group': 'admins'}]}
+>>>...>>>...MODULE:record_query() 2015-05-28 15:49:06.333485
+DB: msrv3
+Collection: users
+Query Content: {'eid': 'e00277'}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-28 15:49:06.333415
+post: {'_id': ObjectId('55667e4dcaa1115d881e1c03'), 'state': 0, 'id': 1, 'name': 'wenjen sung', 'eid': 'e00277', 'groups': [{'group': 'admins'}], 'apps': [{'app': 'admin_account_add'}, {'app': 'admin_account_query'}], 'description': ''}
+>>>...>>>...MODULE:record_query() 2015-05-28 15:53:12.078530
+DB: msrv3
+Collection: users
+Query Content: {'eid': 'e00277'}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-28 15:53:12.078451
+post: {'name': 'wenjen sung', 'groups': [{'group': 'admins'}], 'id': 1, 'eid': 'e00277', 'state': 0, 'description': '', 'apps': [{'app': 'admin_account_add'}, {'app': 'admin_account_query'}], '_id': ObjectId('55667e4dcaa1115d881e1c03')}
+post: name
+post: groups
+post: id
+post: eid
+post: state
+post: description
+post: apps
+post: _id
+>>>...>>>...MODULE:record_query() 2015-05-28 15:55:22.453017
+DB: msrv3
+Collection: users
+Query Content: {'eid': 'e00277'}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-28 15:55:22.452945
+post: {'apps': [{'app': 'admin_account_add'}, {'app': 'admin_account_query'}], 'eid': 'e00277', 'name': 'wenjen sung', 'description': '', '_id': ObjectId('55667e4dcaa1115d881e1c03'), 'state': 0, 'groups': [{'group': 'admins'}], 'id': 1}
+0
+post: apps
+post: eid
+post: name
+post: description
+post: _id
+post: state
+post: groups
+post: id
+>>>...>>>...MODULE:record_query() 2015-05-28 16:10:24.502821
+DB: msrv3
+Collection: users
+Query Content: {'eid': 'e00277'}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-28 16:10:24.502742
+apps: [{'app': 'admin_account_add'}, {'app': 'admin_account_query'}]
+>>>...>>>...MODULE:record_query() 2015-05-28 16:12:12.516047
+DB: msrv3
+Collection: users
+Query Content: {'eid': 'e00277'}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-28 16:12:12.515943
+apps: {'apps': [{'app': 'admin_account_add'}, {'app': 'admin_account_query'}], 'groups': [{'group': 'admins'}], 'state': 0, 'name': 'wenjen sung', 'eid': 'e00277', 'description': '', 'id': 1, '_id': ObjectId('55667e4dcaa1115d881e1c03')}
+apps: 0
+>>>...>>>...MODULE:record_query() 2015-05-28 16:13:01.465108
+DB: msrv3
+Collection: users
+Query Content: {'eid': 'e00277'}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-28 16:13:01.465003
+user json: {'apps': [{'app': 'admin_account_add'}, {'app': 'admin_account_query'}], 'eid': 'e00277', 'groups': [{'group': 'admins'}], '_id': ObjectId('55667e4dcaa1115d881e1c03'), 'id': 1, 'state': 0, 'description': '', 'name': 'wenjen sung'}
+state: 0
+apps: [{'app': 'admin_account_add'}, {'app': 'admin_account_query'}]
+>>>...>>>...MODULE:record_query() 2015-05-28 16:17:08.787339
+DB: msrv3
+Collection: users
+Query Content: {'eid': 'e00277'}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-28 16:17:08.787265
+user json: {'name': 'wenjen sung', '_id': ObjectId('55667e4dcaa1115d881e1c03'), 'id': 1, 'description': '', 'groups': [{'group': 'admins'}], 'apps': [{'app': 'admin_account_add'}, {'app': 'admin_account_query'}], 'eid': 'e00277', 'state': 0}
+>>>...>>>...MODULE:record_query() 2015-05-28 16:17:24.378253
+DB: msrv3
+Collection: users
+Query Content: {'eid': 'e00277'}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-28 16:17:24.377961
+user json: {'eid': 'e00277', 'id': 1, 'groups': [{'group': 'admins'}], 'name': 'wenjen sung', 'description': '', 'apps': [{'app': 'admin_account_add'}, {'app': 'admin_account_query'}], '_id': ObjectId('55667e4dcaa1115d881e1c03'), 'state': 0}
+[{'app': 'admin_account_add'}, {'app': 'admin_account_query'}]
+>>>...>>>...MODULE:record_query() 2015-05-28 17:17:37.480216
+DB: msrv3
+Collection: users
+Query Content: {'eid': 'e00277', 'apps': {'$elemMatch': {'app': 'admin_account_query'}}}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-28 17:17:37.480144
+user json: {'state': 0, 'name': 'wenjen sung', 'eid': 'e00277', 'apps': [{'app': 'admin_account_add'}, {'app': 'admin_account_query'}], 'description': '', '_id': ObjectId('55667e4dcaa1115d881e1c03'), 'id': 1, 'groups': [{'group': 'admins'}]}
+[{'app': 'admin_account_add'}, {'app': 'admin_account_query'}]
+>>>...>>>...MODULE:record_query() 2015-05-28 17:18:08.295025
+DB: msrv3
+Collection: users
+Query Content: {'apps': {'$elemMatch': {'app': 'admin_account_query1'}}, 'eid': 'e00277'}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-28 17:18:08.294920
+沒有帳號或帳號重複存在！！
+>>>...>>>...MODULE:record_query() 2015-05-29 08:20:08.546995
+DB: msrv3
+Collection: users
+Query Content: {'eid': 'e00278', 'apps': {'$elemMatch': {'app': 'admin_account_query'}}}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-29 08:20:08.546915
+沒有帳號或帳號重複存在！！
+>>>...>>>...MODULE:record_query() 2015-05-29 08:47:33.803272
+DB: msrv3
+Collection: users
+Query Content: {'apps': {'$elemMatch': {'app': 'admin_account_query'}}, 'eid': 'e00277', 'state': 0}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-29 08:47:33.803198
+user json: {'name': 'wenjen sung', '_id': ObjectId('55667e4dcaa1115d881e1c03'), 'apps': [{'app': 'admin_account_add'}, {'app': 'admin_account_query'}], 'eid': 'e00277', 'state': 0, 'id': 1, 'description': '', 'groups': [{'group': 'admins'}]}
+>>>...>>>...MODULE:record_query() 2015-05-29 08:47:49.821488
+DB: msrv3
+Collection: users
+Query Content: {'apps': {'$elemMatch': {'app': 'admin_account_query'}}, 'eid': 'e00278', 'state': 0}
+query data OK.
+>>>...MODULE:check_user_app()2015-05-29 08:47:49.821415
+沒有帳號或帳號重複存在或無權限！！
